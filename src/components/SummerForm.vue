@@ -43,7 +43,7 @@ const processForm = (event: Event) => {
     name: name.value,
     emails: email.value,
   }
-  fetch('https://hbedison.netlify.app/.netlify/functions/summer-signup', {
+  fetch('/.netlify/functions/summer-signup', {
     method: 'POST',
     body: JSON.stringify(data),
   })
