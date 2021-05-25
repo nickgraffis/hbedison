@@ -98,10 +98,13 @@ const processForm = (event?: Event) => {
                 type="text"
                 :class="[validEmail ? 'focus:ring-offset-green-600 ' : 'focus:ring-offset-red-600']"
                 class="block w-full px-5 py-3 text-sm lg:text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:outline-none focus:border-transparent focus:ring-white focus:ring-2 focus:ring-offset-2"
-                placeholder="Enter email addresses, seperated by comma "
+                placeholder="edison@polo.com, nick@nick.com "
                 @blur="touched"
                 @keyup="updateEmail"
               />
+              <p class="text-xs text-gray-100">
+                Enter as many email addresses as you would like, seperate them by comma. Example: edison@polo.com, nick@nick.com
+              </p>
             </div>
             <div class="mt-4 flex items-center justify-center">
               <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-gray-100 bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
