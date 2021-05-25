@@ -9,10 +9,6 @@ body,
   @apply bg-cullen;
 }
 
-html.dark {
-  @apply bg-nosferatu;
-}
-
 a {
   color: inherit;
   text-decoration: inherit;

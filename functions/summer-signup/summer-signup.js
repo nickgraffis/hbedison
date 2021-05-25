@@ -5,6 +5,7 @@ const handler = async(event) => {
   try {
     if (event.httpMethod !== 'POST') return { statusCode: 405, body: 'Method Not Allowed' }
     console.log(JSON.parse(event.body))
+    console.log(process.env.AIRTABLE_API_KEY)
     const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base('appSAUt9kM39XgrA1')
     await base('Summer Sign Ups').create(JSON.parse(event.body))
     return {
