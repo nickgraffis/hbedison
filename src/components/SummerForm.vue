@@ -34,8 +34,8 @@ const updateName = (event: any) => {
   name.value = event.target.value
 }
 
-const processForm = (event: Event) => {
-  event.preventDefault()
+const processForm = (event?: Event) => {
+  event?.preventDefault()
   if (!name.value) validName.value = false
   if (!email.value || !name.value || !validName.value || !validEmail.value) return
   formStatus.value = 'loading'
@@ -144,6 +144,19 @@ const processForm = (event: Event) => {
             </svg>
             <span>Please enter valid email(s), seperated by commas.</span>
           </p>
+          <div v-if="formStatus === 'error'" class="w-full flex flex-col">
+            <p class="text-gray-100 font-medium text-center w-full">
+              Sorry, there was an error.
+            </p>
+            <div class="bg-green-500 hover:bg-green-400 text-gray-100 rounded-md shadow flex items-center justify-center px-5 py-3 font-medium" @click="processForm">
+              Try Again
+            </div>
+          </div>
+          <div v-if="formStatus === 'complete'" class="w-full flex flex-col">
+            <p class="text-gray-100 font-medium text-center w-full">
+              Thanks for signing up! You'll get email updates now!
+            </p>
+          </div>
         </div>
       </div>
     </div>
