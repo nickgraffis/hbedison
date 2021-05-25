@@ -45,7 +45,7 @@ const processForm = (event: Event) => {
     name: name.value,
     emails: email.value,
   }
-  fetch('/api/summer-signup', {
+  fetch('https://hbedison.netlify.app/.netlify/functions/summer-signup', {
     method: 'POST',
     body: JSON.stringify(data),
   })
@@ -108,10 +108,10 @@ const processForm = (event: Event) => {
               />
             </div>
             <div class="mt-4 flex items-center justify-center">
-              <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-white bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:px-10">
+              <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-white bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
                 <span v-if="!formStatus">Sign Up</span>
                 <div v-if="formStatus === 'loading'" className="w-full flex items-center justify-center">
-                  <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <svg class="animate-spin h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle
                       class="opacity-25"
                       cx="12"
