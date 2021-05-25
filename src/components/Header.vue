@@ -31,7 +31,7 @@
       <router-link to="/about" class="cursor-pointer hover:text-green-800 hover:bg-yellow-300 p-2 rounded-md hidden lg:inline-flex">
         About Edison
       </router-link>
-      <router-link to="/staff" class="cursor-pointer text-green-800 bg-yellow-300 p-2 rounded-md inline-flex lg:hidden">
+      <router-link to="/about" class="cursor-pointer text-green-800 bg-yellow-300 p-2 rounded-md inline-flex lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
         </svg>
@@ -39,7 +39,7 @@
       <router-link to="/news" class="cursor-pointer hover:text-green-800 hover:bg-yellow-300 p-2 rounded-md hidden lg:inline-flex">
         News
       </router-link>
-      <router-link to="/staff" class="cursor-pointer text-green-800 bg-yellow-300 p-2 rounded-md inline-flex lg:hidden">
+      <router-link to="/news" class="cursor-pointer text-green-800 bg-yellow-300 p-2 rounded-md inline-flex lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
         </svg>
