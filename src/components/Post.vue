@@ -31,14 +31,14 @@ if (isClient) {
 }
 </script>
 <template>
-  <div v-if="frontmatter.title && frontmatter.title !== 'Blog' && frontmatter.title !== '<3'" class="prose text-left w-full mb-6">
+  <div v-if="frontmatter.title && frontmatter.title !== 'Blog' && frontmatter.title !== 'Edison Water Polo'" class="prose text-left w-full mb-6">
     <h1>
       {{ frontmatter.title }}
     </h1>
-    <p v-if="frontmatter.date" class="text-gray-500 dark:text-gray-300">
+    <p v-if="frontmatter.date" class="text-green-600">
       {{ formatDate(frontmatter.date) }} <span v-if="frontmatter.duration">· {{ frontmatter.duration }}</span>
     </p>
-    <p v-if="frontmatter.description" class="text-gray-500 dark:text-gray-300 italic">
+    <p v-if="frontmatter.description" class="text-green-600 italic">
       {{ frontmatter.description }}
     </p>
   </div>
@@ -46,7 +46,7 @@ if (isClient) {
   <div v-if="route.path !== '/'" class="w-full my-8 text-left">
     <router-link
       :to="route.path.split('/').slice(0, -1).join('/') || '/'"
-      class="flex space-x-4 items-center text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-200"
+      class="flex space-x-4 items-center text-gray-600 hover:text-green-800"
     >
       <eva-arrow-back-outline />
       <span>Back</span>

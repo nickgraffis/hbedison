@@ -1,63 +1,3 @@
-/* https://github.com/antfu/prism-theme-vars */
-@import 'prism-theme-vars/base.css';
-
-:root {
-  --prism-font-size: 0.9rem;
-  --prism-font-family: 'Fira Code', monospace;
-}
-
-:root {
-  --prism-font-family: 'Input Mono', monospace;
-}
-
-html:not(.dark) {
-  --prism-foreground: #393a34;
-  --prism-background: #fbfbfb;
-  --prism-comment: #a0ada0;
-  --prism-string: #b56959;
-  --prism-literal: #2f8a89;
-  --prism-number: #296aa3;
-  --prism-keyword: #1c6b48;
-  --prism-function: #6c7834;
-  --prism-boolean: #1c6b48;
-  --prism-constant: #a65e2b;
-  --prism-deleted: #a14f55;
-  --prism-class: #2993a3;
-  --prism-builtin: #ab5959;
-  --prism-property: #b58451;
-  --prism-namespace: #b05a78;
-  --prism-punctuation: #8e8f8b;
-  --prism-decorator: #bd8f8f;
-  --prism-regex: #ab5e3f;
-  --prism-json-property: #698c96;
-}
-
-html.dark {
-  --prism-foreground: #f8f8f2;
-  --prism-background: rgb(31, 30, 38);
-  --prism-comment: #6272a4;
-  --prism-string: #f1fa8c;
-  --prism-literal: #f1fa8c;
-  --prism-keyword: #ff79c6;
-  --prism-boolean: #bd93f9;
-  --prism-number: #bd93f9;
-  --prism-variable: #bd93f9;
-  --prism-function: #50fa7b;
-  --prism-deleted: #a14f55;
-  --prism-class: #8be9fd;
-  --prism-builtin: #8be9fd;
-  --prism-property: #8be9fd;
-  --prism-namespace: #8be9fd;
-  --prism-punctuation: #f8f8f2;
-  --prism-decorator: #8be9fd;
-  --prism-regex: #ab5e3f;
-  --prism-json-property: #6b8b9e;
-  --prism-line-number: #888888;
-  --prism-line-number-gutter: #eeeeee;
-  --prism-line-highlight-background: #444444;
-  --prism-selection-background: #444444;
-}
-
 .prose {
 
   img.emoji {
@@ -91,7 +31,7 @@ html.dark {
     transition: all .3s ease-in-out;
 
     &:hover { 
-    @apply border-b-\[1px\] opacity-100 dark:border-dracula border-draculaDark dark:text-dracula text-draculaDark
+    @apply border-b-\[1px\] opacity-100 border-green-800 text-green-800
     }
   }
 
@@ -105,14 +45,8 @@ html.dark {
   }
 
   h1 {
-    @apply text-5xl lg:text-7xl md:text-7xl font-bold text-left w-full mb-6
+    @apply text-4xl lg:text-6xl md:text-5xl font-bold text-left w-full mb-6
   }
-}
-
-html.dark .prose {
-  --fg: #f8f8f2;
-  --fg-deep: #ddd;
-  --fg-deeper: #fff;
 }
 
 a.item {
