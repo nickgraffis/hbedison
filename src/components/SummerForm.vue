@@ -21,17 +21,15 @@ const checkEmails = (emails: string) => {
 const formStatus = ref('')
 
 const email = ref('')
-const updateEmail = (event) => {
+const updateEmail = (event: any) => {
   const validate = checkEmails(event.target.value)
-  console.log(validate)
   if (!validate) validEmail.value = false
   else validEmail.value = true
-  console.log(validEmail.value)
   email.value = event.target.value
 }
 
 const name = ref('')
-const updateName = (event) => {
+const updateName = (event: any) => {
   validName.value = true
   name.value = event.target.value
 }
@@ -52,11 +50,9 @@ const processForm = (event: Event) => {
     .then((res) => {
       if (res.status < 300) formStatus.value = 'complete'
       else formStatus.value = 'error'
-      console.log(res)
     })
     .catch((error) => {
       formStatus.value = 'error'
-      console.log(error)
       return error
     })
 }
@@ -108,10 +104,10 @@ const processForm = (event: Event) => {
               />
             </div>
             <div class="mt-4 flex items-center justify-center">
-              <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-white bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
+              <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-gray-100 bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
                 <span v-if="!formStatus">Sign Up</span>
                 <div v-if="formStatus === 'loading'" className="w-full flex items-center justify-center">
-                  <svg class="animate-spin h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <svg class="animate-spin h-5 w-5 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle
                       class="opacity-25"
                       cx="12"
@@ -129,7 +125,7 @@ const processForm = (event: Event) => {
                   </svg>
                 </div>
                 <div v-if="formStatus === 'error'" className="w-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
