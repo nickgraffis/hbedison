@@ -18,4 +18,12 @@ Oceanview High School <br>
 💵 $300 - Checks made payable to "Edison High School"
 
 ### Physicals and Forms
-All athletes must have a valid [physical](https://4.files.edl.io/3748/05/14/21/160928-b4225c67-f8ed-4895-8ac8-608a4daa4daa.pdf) on file with the school's trainer to participate, as-well-as a [Summer Emergency Card](https://4.files.edl.io/45a3/06/29/20/202920-6239a3f5-f3a0-4a82-8ffc-27c615767dd7.xlsx). These documents can be brought to Coach Nick on the first day of camp.
+All athletes must have a valid physical on file with the schoool to participate.
+You can get a [physical form here](https://4.files.edl.io/3748/05/14/21/160928-b4225c67-f8ed-4895-8ac8-608a4daa4daa.pdf).
+
+There will be a **_Physical Day, June 5th from 10 AM - 2 PM @ Edison HS_**.
+
+### Summer Emergency Cards
+Athletes will need a [Summer Emergency Card](https://4.files.edl.io/45a3/06/29/20/202920-6239a3f5-f3a0-4a82-8ffc-27c615767dd7.xlsx) to participate. 
+
+All documents can be given to coaches on the first day of camp.
