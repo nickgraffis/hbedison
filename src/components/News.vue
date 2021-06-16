@@ -9,6 +9,7 @@ const routes = router.getRoutes().filter((route: any) => route.meta.frontmatter?
 const posts: any = computed(() =>
   routes.filter((i: any) => !i.path.endsWith('.html') && i.meta.frontmatter?.lang === lang.value),
 )
+console.log(posts.value)
 </script>
 
 <template>

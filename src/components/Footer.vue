@@ -25,6 +25,9 @@ const toggleLocales = (event: Event) => {
       <router-link to="/news" class="cursor-pointer hover:text-green-800 hover:bg-yellow-300 p-2 rounded-md">
         News
       </router-link>
+      <router-link to="/boys" class="cursor-pointer hover:text-green-800 hover:bg-yellow-300 p-2 rounded-md">
+        Boys 2021 Schedule
+      </router-link>
     </nav>
   </footer>
 </template>
