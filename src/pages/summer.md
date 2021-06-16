@@ -12,7 +12,7 @@ Oceanview High School <br>
 📍 [17071 Gothard St, Huntington Beach, CA 92647](https://www.google.com/maps/place/Ocean+View+High+School/@33.7145055,-118.0005899,15z/data=!4m2!3m1!1s0x0:0xe89c57a37ae3cff6?sa=X&ved=2ahUKEwjI3o2kvOXwAhU0HDQIHRLgA_kQ_BIwJnoECGgQBQ)
 
 ### Times
-🗓 Monday - Friday 5:45 - 8:15 AM
+🗓 Monday - Friday 5:45 - 7:45 AM
 
 ### Cost
 💵 $300 - Checks made payable to "Edison High School"
@@ -21,9 +21,14 @@ Oceanview High School <br>
 All athletes must have a valid physical on file with the schoool to participate.
 You can get a [physical form here](https://4.files.edl.io/3748/05/14/21/160928-b4225c67-f8ed-4895-8ac8-608a4daa4daa.pdf).
 
-There will be a **_Physical Day, June 5th from 10 AM - 2 PM @ Edison HS_**.
-
 ### Summer Emergency Cards
 Athletes will need a [Summer Emergency Card](https://4.files.edl.io/45a3/06/29/20/202920-6239a3f5-f3a0-4a82-8ffc-27c615767dd7.xlsx) to participate. 
 
 All documents can be given to coaches on the first day of camp.
+
+### Summer Games & Leagues
+**_Rosters will be communicated to athletes_**
+#### Girls Oceanview Night League
+🗓 Tuesdays, June 22nd, June 29th, July 6th at 1:50 PM, and July 13th at 1:00 PM. Arrive 50 min before game time for warm up.
+#### Boys Oceanview Night League
+🗓 Thursdays, June 24th, July 1st, July 8th, July 15th at 1:50 PM. Arrive at 1:00 PM for warm up.

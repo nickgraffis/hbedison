@@ -73,7 +73,7 @@ const processForm = (event?: Event) => {
             Sign up for summer camp.
           </div>
           <p class="max-w-2xl mx-auto mt-4 text-sm lg:text-base text-yellow-50">
-            Please sing up for summer camp here to make sure you get updates as we get closer to the camp. ⚡️
+            Please sign up for summer camp here to make sure you get updates as we get closer to the camp. ⚡️
           </p>
           <p class="max-w-2xl mx-auto mt-4 text-sm lg:text-base text-yellow-50">
             You can get more information on the summer camp <a href="/summer">here</a>.

@@ -8,6 +8,13 @@
     display: inline;
  }
 
+ table {
+  border-collapse: collapse;
+ }
+ table, td, th {
+  border: 3px solid #065F46;
+}
+
  .timeline-stick {
    margin-top: 1rem;
  }
