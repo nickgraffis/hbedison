@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "cross-env NODE_ENV=production vite-ssg build",
+    "build": "vite-ssg build",
     "preview": "vite preview",
     "preview-https": "serve dist"
   },
