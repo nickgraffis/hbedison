@@ -5,6 +5,7 @@ specifiers:
   '@iconify/iconify': ^2.0.1
   '@iconify/json': ^1.1.341
   '@intlify/vite-plugin-vue-i18n': ^2.1.2
+  '@tailwindcss/custom-forms': ^0.2.1
   '@types/nprogress': ^0.2.0
   '@typescript-eslint/eslint-plugin': ^4.22.1
   '@vitejs/plugin-vue': ^1.2.2
@@ -66,6 +67,7 @@ devDependencies:
   '@antfu/eslint-config': 0.6.5_eslint@7.26.0+typescript@4.2.4
   '@iconify/json': 1.1.341
   '@intlify/vite-plugin-vue-i18n': 2.1.2_vite@2.3.0+vue-i18n@9.1.6
+  '@tailwindcss/custom-forms': 0.2.1
   '@types/nprogress': 0.2.0
   '@typescript-eslint/eslint-plugin': 4.22.1_eslint@7.26.0+typescript@4.2.4
   '@vitejs/plugin-vue': 1.2.2_@vue+compiler-sfc@3.0.11
@@ -1593,6 +1595,16 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       defer-to-connect: 1.1.3
+    dev: true
+
+  /@tailwindcss/custom-forms/0.2.1:
+    resolution: {integrity: sha512-XdP5XY6kxo3x5o50mWUyoYWxOPV16baagLoZ5uM41gh6IhXzhz/vJYzqrTb/lN58maGIKlpkxgVsQUNSsbAS3Q==}
+    peerDependencies:
+      tailwindcss: ^1.0
+    dependencies:
+      lodash: 4.17.21
+      mini-svg-data-uri: 1.3.3
+      traverse: 0.6.6
     dev: true
 
   /@types/estree/0.0.39:
@@ -4923,6 +4935,11 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /mini-svg-data-uri/1.3.3:
+    resolution: {integrity: sha512-+fA2oRcR1dJI/7ITmeQJDrYWks0wodlOz0pAEhKYJ2IVc1z0AnwJUsKY2fzFmPAM3Jo9J0rBx8JAA9QQSJ5PuA==}
+    hasBin: true
+    dev: true
+
   /minimalistic-assert/1.0.1:
     resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
     dev: true
@@ -6620,6 +6637,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       punycode: 2.1.1
+    dev: true
+
+  /traverse/0.6.6:
+    resolution: {integrity: sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=}
     dev: true
 
   /trim-newlines/2.0.0:
