@@ -1,32 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const validEmail = ref(true)
 const validName = ref(true)
 const beenTouched = ref(false)
 
 const touched = () => beenTouched.value = true
-
-const checkEmails = (emails: string) => {
-  const emailsArray = emails.split(', ')
-  let validate = true
-  emailsArray.forEach((e) => {
-    const match = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(e)
-    if (!match) validate = false
-  })
-
-  return validate
-}
+const checkedDays = ref<string[]>([])
 
 const formStatus = ref('')
-
-const email = ref('')
-const updateEmail = (event: any) => {
-  const validate = checkEmails(event.target.value)
-  if (!validate) validEmail.value = false
-  else validEmail.value = true
-  email.value = event.target.value
-}
 
 const name = ref('')
 const updateName = (event: any) => {
@@ -36,14 +17,15 @@ const updateName = (event: any) => {
 
 const processForm = (event?: Event) => {
   event?.preventDefault()
+  beenTouched.value = true
   if (!name.value) validName.value = false
-  if (!email.value || !name.value || !validName.value || !validEmail.value) return
+  if (!checkedDays.value.length || !name.value || !validName.value || !checkedDays.value.length) return
   formStatus.value = 'loading'
   const data = {
     name: name.value,
-    emails: email.value,
+    days: checkedDays.value,
   }
-  fetch('/.netlify/functions/summer-signup', {
+  fetch('/.netlify/functions/transportation-signup', {
     method: 'POST',
     body: JSON.stringify(data),
   })
@@ -70,10 +52,13 @@ const processForm = (event?: Event) => {
         </div>
         <div class="relative">
           <div class="text-yellow-50 text-xl font-extrabold tracking-tight sm:text-2xl md:text-3xl">
-            Sign up for email updates.
+            Confirm your transportation requirements to <span class="underline">practice</span>
           </div>
           <p class="max-w-2xl mx-auto mt-4 text-sm lg:text-base text-yellow-50">
-            Please sign up for email updates here to make sure you get updates about Edison water polo. ⚡️
+            Remember that transportation is <span class="underline">difficult</span>. Please help us by utilizing carpooling when possible. ⚡️
+          </p>
+          <p class="max-w-2xl mx-auto mt-4 text-sm lg:text-base text-yellow-50">
+            Tuesday and Thursday there will always be transportation to practice.
           </p>
           <form class="mt-6 mx-auto sm:max-w-lg" @submit="processForm">
             <div class="relative flex-1 min-w-0 space-y-3">
@@ -88,20 +73,37 @@ const processForm = (event?: Event) => {
                 @blur="touched"
                 @keyup="updateName"
               />
-              <label for="email" class="sr-only">Email Addresses</label><input
-                id="email"
-                :value="email"
-                name="email"
-                type="text"
-                :class="[validEmail ? 'focus:ring-offset-green-600 ' : 'focus:ring-offset-red-600']"
-                class="block w-full px-5 py-3 text-sm lg:text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:outline-none focus:border-transparent focus:ring-white focus:ring-2 focus:ring-offset-2"
-                placeholder="edison@polo.com, nick@nick.com "
-                @blur="touched"
-                @keyup="updateEmail"
-              />
-              <p class="text-xs text-gray-100">
-                Enter as many email addresses as you would like, seperate them by comma. Example: edison@polo.com, nick@nick.com
-              </p>
+              <div v-for="day in ['Monday', 'Wednesday', 'Friday']" :key="day">
+                <p class="text-lg font-semibold mt-1 text-white">
+                  {{ day }}
+                </p>
+                <div class="flex items-center mr-4 mb-2 cursor-pointer">
+                  <input :id="day + '-need'" v-model="checkedDays" :value="day + '-need'" type="checkbox" class="opacity-0 absolute h-8 w-8 cursor-pointer">
+                  <div class="border-white border-2 cursor-pointer rounded-md w-8 h-8 flex flex-shrink-0 justify-center items-center mr-2">
+                    <svg :class="!checkedDays.includes(day + '-need') && 'hidden'" class="fill-current w-3 h-3 text-white" version="1.1" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" fill-rule="evenodd">
+                        <g transform="translate(-9 -11)" fill="#fff" fill-rule="nonzero">
+                          <path d="m25.576 11.414c0.56558 0.55188 0.56558 1.4439 0 1.9961l-9.404 9.176c-0.28213 0.27529-0.65247 0.41385-1.0228 0.41385-0.37034 0-0.74068-0.13855-1.0228-0.41385l-4.7019-4.588c-0.56584-0.55188-0.56584-1.4442 0-1.9961 0.56558-0.55214 1.4798-0.55214 2.0456 0l3.679 3.5899 8.3812-8.1779c0.56558-0.55214 1.4798-0.55214 2.0456 0z" />
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <label class="font-semibold text-white">I need transportation</label>
+                </div>
+                <div class="flex items-center mr-4 mb-2 cursor-pointer">
+                  <input :id="day + '-provide'" v-model="checkedDays" :value="day + '-provide'" type="checkbox" class="opacity-0 absolute h-8 w-8 cursor-pointer">
+                  <div class="border-white border-2 cursor-pointer rounded-md w-8 h-8 flex flex-shrink-0 justify-center items-center mr-2">
+                    <svg :class="!checkedDays.includes(day + '-provide') && 'hidden'" class="fill-current w-3 h-3 text-white" version="1.1" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" fill-rule="evenodd">
+                        <g transform="translate(-9 -11)" fill="#fff" fill-rule="nonzero">
+                          <path d="m25.576 11.414c0.56558 0.55188 0.56558 1.4439 0 1.9961l-9.404 9.176c-0.28213 0.27529-0.65247 0.41385-1.0228 0.41385-0.37034 0-0.74068-0.13855-1.0228-0.41385l-4.7019-4.588c-0.56584-0.55188-0.56584-1.4442 0-1.9961 0.56558-0.55214 1.4798-0.55214 2.0456 0l3.679 3.5899 8.3812-8.1779c0.56558-0.55214 1.4798-0.55214 2.0456 0z" />
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <label class="font-semibold text-white">I can help with carpooling</label>
+                </div>
+              </div>
             </div>
             <div class="mt-4 flex items-center justify-center">
               <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-gray-100 bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
@@ -138,11 +140,11 @@ const processForm = (event?: Event) => {
             </svg>
             <span>Please enter a name.</span>
           </p>
-          <p v-if="!validEmail && beenTouched" class="flex items-start space-x-2 text-sm font-semibold text-gray-100">
+          <p v-if="!checkedDays.length && beenTouched" class="flex items-start space-x-2 text-sm font-semibold text-gray-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-shrink-0 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span>Please enter valid email(s), seperated by commas.</span>
+            <span>Please respond to the survey.</span>
           </p>
           <div v-if="formStatus === 'error'" class="w-full flex flex-col">
             <p class="text-gray-100 font-medium text-center w-full">
