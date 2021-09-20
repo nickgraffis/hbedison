@@ -32,6 +32,3 @@ Laura has been assisting Edison for the past five years. In addition to her work
 Ethan graduated from Edison High School in 2019 as an All Sunset League Player and All CIF Player. He began coaching at Edison in 2020. He currently attends San Jose State University.
 
 Outside of coaching, Ethan is a Lifeguard for the City of Huntington Beach.
-
-## Chaz Harker
-### Assistant Head Coach Mens and Womens Water Polo
