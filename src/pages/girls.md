@@ -5,6 +5,8 @@ title: Girls Water Polo Schedule
 🏠 **Home Game** <br>
 🚌 **Bus Provided** <br>
 _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
+
+[Indepth Girls Schedule](/girls_adv)
 | Date/Time    | Location | Level     | Opponent |
 | :---:        |    :----:   |        :---: | :---: |
 | 11/1          | 📍 [Oceanview HS](https://www.google.com/maps/place/Ocean+View+High+School/@33.7145055,-118.0027839,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd268bd2ce9cd1:0xe89c57a37ae3cff6!8m2!3d33.7145055!4d-118.0005899) | All Levels | 21/22 Season Training Begins |
