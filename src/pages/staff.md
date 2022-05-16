@@ -26,9 +26,3 @@ Outside of coaching, Dylan is a Lifeguard for the City of Huntington Beach.
 ## Laura Huynh
 ### Assistant Coach Mens and Womens Water Polo
 Laura has been assisting Edison for the past five years. In addition to her work at Edison, she is a youth water polo coach at Vanguard Aquatics where she has lead the 10U & 12U girls teams for the past several years. In that time the team has reached the semifinals of National Junior Olympics every year, and the finals twice.
-
-## Ethan Galaz
-### Assistant Coach Mens and Womens Water Polo
-Ethan graduated from Edison High School in 2019 as an All Sunset League Player and All CIF Player. He began coaching at Edison in 2020. He currently attends San Jose State University.
-
-Outside of coaching, Ethan is a Lifeguard for the City of Huntington Beach.
