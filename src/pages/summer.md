@@ -5,6 +5,8 @@ title: Summer Camp
 ## Summer Camp
 All practices are at Edison High School. Athltes will need a [physical completed](https://drive.google.com/file/d/1eRJJghTPsie2XFZWdrZVYEOYMTcKaeTV/view) to participate. 
 
+To sign up, come on July 6th with your physical and your check! Please email [ngraffis@hbuhsd.edu](mailto:ngraffis@hbuhsd.edu) with any questions.
+
 [You can get a physical form here](https://drive.google.com/file/d/1eRJJghTPsie2XFZWdrZVYEOYMTcKaeTV/view)
 
 ## Dates
