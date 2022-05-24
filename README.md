@@ -1,5 +1,5 @@
 ## A Simple Static Site Generator
-Made for [Edison High School Water Polo](https:://www.edisonwp.com)
+Made for [Edison High School Water Polo](https://edisonwp.com)
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild)
 
