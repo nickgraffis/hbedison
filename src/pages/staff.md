@@ -9,13 +9,27 @@ In 2020 he took over the Mens program. In 2020 the team finished 2nd in Sunset L
 
 In addition to his work at Edison, Nick is a youth water polo coach at Vanguard Aquatics, where he has lead lead four teams to National Semifinal apperances, and three teams to Finals apperance. In 2017 he helped win a National Junior Olympic Championship at Vanguard.
 
-Nick is also, currently, an Assistant Coach at Cypress Community College, and has previously coached at Orange Coast College, Huntington Beach High School, and UC Irvine. 
+Nick is also, currently, an Assistant Coach at Cypress Community College, and has previously coached at Orange Coast College, Huntington Beach High School, and UC Irvine Club Sports. 
 
 ## Kyle Cenicola
 ### Assistant Coach Mens and Womens Water Polo
-Kyle has been coaching at Edison for the past 2 years after moving to Huntington Beach from Palm Desert where he attended Xavier Prep. He won a state Championships at Goldenwest College in 2019 and is currently attending Long Beach State University.
+Kyle has been coaching at Edison for the past 4 years after moving to Huntington Beach from Palm Desert where he attended Xavier Prep. He won a state Championships at Goldenwest College in 2019 and is currently attending Long Beach State University.
 
 Outside of coaching, Kyle is a Lifeguard for the City of Huntington Beach.
+
+<!-- ## Ashley Hogan
+
+### Assistant Coach Mens and Womens Water Polo
+Ashley is an alumni of Edison where, in 2020, she was the starting defender for the team the went to the CIF Semifinals. Ashley was Honorable Mention in the CIF Playoffs in 2020.
+
+Ashley has been coaching at Vanguard Aquatics for the last 2 years and is currrently a member of the Goldenwest College Womens Water Polo team.
+
+## Coryn Cavechee
+
+### Assistant Coach Mens and Womens Water Polo
+Ashley is an alumni of Edison where, in 2020, she was the starting defender for the team the went to the CIF Semifinals. Ashley was Honorable Mention in the CIF Playoffs in 2020.
+
+Ashley has been coaching at Vanguard Aquatics for the last 2 years and is currrently a member of the Goldenwest College Womens Water Polo team. -->
 
 ## Dylan Honrath
 ### Assistant Coach Mens and Womens Water Polo
