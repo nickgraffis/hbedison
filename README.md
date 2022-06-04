@@ -1,4 +1,5 @@
-## My personal website
+## A Simple Static Site Generator
+Made for [Edison High School Water Polo](https://edisonwp.com)
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild)
 
@@ -8,13 +9,7 @@
 
 - 📑 [Layout system](./src/layouts)
 
-- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
-
 - 🎨 [Windi CSS](https://github.com/windicss/windicss)
-
-- 😃 [Use icons from any icon sets, with no compromise](./src/components)
-
-- 🌍 [I18n ready](./locales)
 
 - 🗒 [Markdown Support](https://github.com/antfu/vite-plugin-md)
 
