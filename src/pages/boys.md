@@ -4,31 +4,40 @@ title: Boys Water Polo Schedule
 💚 **League Game** <br>
 🏠 **Home Game** <br>
 🚌 **Bus Provided** <br>
+🏁 **Tournament** <br>
+🚨 **Hosting** <br>
 _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
 | Date/Time    | Location | Level     | Opponent |
 | :---:        |    :----:   |        :---: | :---: |
-| 8/16          | 📍 [Oceanview HS](https://www.google.com/maps/place/Ocean+View+High+School/@33.7145055,-118.0027839,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd268bd2ce9cd1:0xe89c57a37ae3cff6!8m2!3d33.7145055!4d-118.0005899) | All Levels | 2021 Season Training Begins |
-| 8/24 TBA      | 📍 [Northwood HS](https://www.google.com/maps/place/Northwood+High+School/@33.7339467,-117.7526228,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcdca63698661b:0x71c1c27a1a584ee2!8m2!3d33.7339467!4d-117.7504288)       |  Varsity, JV, F/S  | Scrimamge vs. Northwood |
-| 8/31 3/4 PM  | 📍 [Redondo Union HS](https://www.google.com/maps/place/Redondo+Union+High+School/@33.8471175,-118.3840853,15z/data=!4m2!3m1!1s0x0:0x4d2bf392006fc804?sa=X&ved=2ahUKEwiEg4TCnczyAhWkJTQIHWvlCnQQ_BIwEnoECHIQBQ)        | Varsity, JV     | Redondo Union 🚌|
-| 9/10 - 9/11   | 📍 [El Toro HS](https://www.google.com/maps/place/El+Toro+High+School/@33.637308,-117.6896732,17z/data=!3m1!4b1!4m5!3m4!1s0x80dce9ad6955f92f:0x6813746d0f2da9bd!8m2!3d33.637308!4d-117.6874792)        | Varsity     | D III Showcase Tournament |
-| 9/16 - 9/18   | 📍 [Newport Harbor HS](https://www.google.com/maps/place/Newport+Harbor+High+School/@33.6228652,-117.9145124,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcdfe4fc9a092f:0xd1d9e813fc294f4f!8m2!3d33.6228652!4d-117.9123184)        | Varsity     | South Coast Tournament |
-| 9/21 TBA  | 📍 [Northwood HS](https://www.google.com/maps/place/Northwood+High+School/@33.7339467,-117.7526228,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcdca63698661b:0x71c1c27a1a584ee2!8m2!3d33.7339467!4d-117.7504288)         | Varsity, JV, F/S     | Northwood 🚌 |
-| 9/22 6:20 PM  | 📍 [Newport Harbor HS](https://www.google.com/maps/place/Newport+Harbor+High+School/@33.6228652,-117.9145124,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcdfe4fc9a092f:0xd1d9e813fc294f4f!8m2!3d33.6228652!4d-117.9123184)        | Varsity     | Marina 💚|
-| 9/23 3/4 PM  | 📍 [Huntington Beach HS](https://www.google.com/maps/place/Huntington+Beach+High+School/@33.6764158,-118.0047655,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd26b32503f25b:0x99cad47972c7c3b5!8m2!3d33.6764158!4d-118.0025715)        | JV, F/S     | Marina 💚|
-| 9/28 3/4/5 PM  | 📍 [LB Poly HS](https://www.google.com/maps/place/Long+Beach+Polytechnic+High+School/@33.7869909,-118.1856131,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd315d0402a567:0xcd439f8a0efe1c15!8m2!3d33.7869912!4d-118.1834735)        | Varsity, JV, F/S     | Long Beach Poly 🚌|
-| 9/29 5:10 PM  | 📍 [Newport Harbor HS](https://www.google.com/maps/place/Newport+Harbor+High+School/@33.6228652,-117.9145124,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcdfe4fc9a092f:0xd1d9e813fc294f4f!8m2!3d33.6228652!4d-117.9123184)        | Varsity     | Fountain Valley 💚|
-| 9/30 5/6 PM  | 📍 [Huntington Beach HS](https://www.google.com/maps/place/Huntington+Beach+High+School/@33.6764158,-118.0047655,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd26b32503f25b:0x99cad47972c7c3b5!8m2!3d33.6764158!4d-118.0025715)        | JV, F/S     | Fountain Valley 💚|
-| 9/30 - 10/02   | 📍 [Villa Park HS](https://www.google.com/maps/place/Villa+Park+High+School/@33.8160206,-117.8199616,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcd0baf5bacf23:0x9b34868283ed5dff!8m2!3d33.8160206!4d-117.8177676)       | Varsity     | Villa Park Tournament |
-| 10/6 4 PM  | 📍 [Corona del Mar HS](https://www.google.com/maps/place/Corona+del+Mar+High+School/@33.6337259,-117.8799827,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde2d6ca43601:0x35d330147a3769c4!8m2!3d33.6341317!4d-117.8776995)       | Varsity     | Los Alamitos 💚|
-| 10/7 5/6 PM  | 📍 [Huntington Beach HS](https://www.google.com/maps/place/Huntington+Beach+High+School/@33.6764158,-118.0047655,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd26b32503f25b:0x99cad47972c7c3b5!8m2!3d33.6764158!4d-118.0025715)       | JV, F/S     | Los Alamitos 💚|
-| 10/7 3/4 PM  | 📍 [Schurr HS](https://www.google.com/maps/place/Schurr+High+School/@34.0282206,-118.1233516,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2cfc54b5485c1:0xfbd0c53dda8e2c8d!8m2!3d34.0282206!4d-118.1211576)        | Varsity, JV     | Schurr 🚌|
-| 10/9 TBA  | 📍 [Oceanview HS](https://www.google.com/maps/place/Ocean+View+High+School/@33.7145055,-118.0027839,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd268bd2ce9cd1:0xe89c57a37ae3cff6!8m2!3d33.7145055!4d-118.0005899)        | Varsity    | San Marcos 🏠|
-| 10/13 6:20 PM  | 📍 [Corona del Mar HS](https://www.google.com/maps/place/Corona+del+Mar+High+School/@33.6337259,-117.8799827,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde2d6ca43601:0x35d330147a3769c4!8m2!3d33.6341317!4d-117.8776995)          | Varsity     | Marina 💚|
-| 10/14 5/6 PM  | 📍 [Huntington Beach HS](https://www.google.com/maps/place/Huntington+Beach+High+School/@33.6764158,-118.0047655,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd26b32503f25b:0x99cad47972c7c3b5!8m2!3d33.6764158!4d-118.0025715)        | JV, F/S     | Marina 💚|
-| 10/15 - 10/16 | 📍 [Mater Dei HS](https://www.google.com/maps/place/El+Toro+High+School/@33.637308,-117.6896732,17z/data=!3m1!4b1!4m5!3m4!1s0x80dce9ad6955f92f:0x6813746d0f2da9bd!8m2!3d33.637308!4d-117.6874792)        | F/S     | MD F/S Tournament |
-| 10/20 6:20 PM  | 📍 [Los Alamitos HS](https://www.google.com/maps/place/Los+Alamitos+High+School/@33.8128831,-118.0717114,17.09z/data=!4m5!3m4!1s0x80dd2e636a88fb03:0x8f149fb4d08f3394!8m2!3d33.8127095!4d-118.0692514)        | Varsity     | Fountain Valley 💚|
-| 10/21 3/4 PM  | 📍 [Huntington Beach HS](https://www.google.com/maps/place/Huntington+Beach+High+School/@33.6764158,-118.0047655,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd26b32503f25b:0x99cad47972c7c3b5!8m2!3d33.6764158!4d-118.0025715)        | JV, F/S     | Fountain Valley 💚|
-| 10/22 - 10/23 | 📍 [Newport Harbor HS](https://www.google.com/maps/place/Newport+Harbor+High+School/@33.6228652,-117.9145124,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcdfe4fc9a092f:0xd1d9e813fc294f4f!8m2!3d33.6228652!4d-117.9123184)        | F/S     | Grey Lunde F/S Tournament |
-| 10/23 3/4 PM  | 📍 [Oceanview HS](https://www.google.com/maps/place/Ocean+View+High+School/@33.7145055,-118.0027839,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd268bd2ce9cd1:0xe89c57a37ae3cff6!8m2!3d33.7145055!4d-118.0005899)        | Varsity, JV     | Dana Hills 🏠|
-| 10/27 7:30 PM  | 📍 [Los Alamitos HS](https://www.google.com/maps/place/Los+Alamitos+High+School/@33.8128831,-118.0717114,17.09z/data=!4m5!3m4!1s0x80dd2e636a88fb03:0x8f149fb4d08f3394!8m2!3d33.8127095!4d-118.0692514)        | Varsity     | Los Alamitos 💚|
-| 10/27 3/4 PM  | 📍 [Los Alamitos HS](https://www.google.com/maps/place/Los+Alamitos+High+School/@33.8128831,-118.0717114,17.09z/data=!4m5!3m4!1s0x80dd2e636a88fb03:0x8f149fb4d08f3394!8m2!3d33.8127095!4d-118.0692514)         | JV, F/S     | Los Alamitos 💚 🚌|
+| 8/22         | 📍 [Edison HS]() | All Levels | 2022 Season Training Begins 🏠|
+| 8/24 2:30 - 6 PM      | 📍 [Northwood HS]()       |  F/S, Varsity, JV | Scrimamge vs. Northwood |
+| 9/2 - 9/3   | 📍 [Belmont Plaza Pool]()        | Varsity     | Long Beach Tournament 🚌 🏁|
+| 9/7 3/4 PM         | 📍 [Edison HS]() | Varsity, JV | vs. University HS 🏠|
+| 9/8 3/4/5 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Long Beach Poly HS 🏠|
+| 9/14 3/4/5 PM         | 📍 [Irvine HS]() | F/S, Varsity, JV | @ Irvine HS 🚌|
+| 9/15 - 9/17 TBD   | 📍 [Edison HS]()        | Varsity     | South Coast Tournament 🏁🏠|
+| 9/14 3/4 PM         | 📍 [Pacifica HS]() | Varsity, JV | @ Pacifica HS 🚌|
+| 9/21 2:30 PM         | 📍 [Edison HS]() | JV | vs. Fountain Valley 💚🏠|
+| 9/21 4 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Marina 🚨|
+| 9/21 5:10 PM         | 📍 [Edison HS]() | Varsity | vs. Fountain Valley 💚🏠|
+| 9/22 3 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Marina JV 🚨|
+| 9/27 3/4/5 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Northwood HS 🏠|
+| 9/21 2:30/5:10 PM         | 📍 [CDM HS]() | JV, Varsity | vs. CDM 💚|
+| 9/29 - 10/1 TBD   | 📍 [Foothill HS]()        | Varsity     | Villa Park Tournament 🏁|
+| 10/4 3/4 PM         | 📍 [Edison HS]() | Varsity, JV | vs. Costa Mesa HS 🏠|
+| 10/5 2:30 PM         | 📍 [Edison HS]() | JV | vs. Marina 💚🏠|
+| 10/5 4 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Fountain Valley 🚨|
+| 10/5 5:10 PM         | 📍 [Edison HS]() | Varsity | vs. Marina 💚🏠|
+| 10/6 3 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Fountain Valley JV 🚨|
+| 10/12 4 PM        | 📍 [CDM HS]() | Varsity | vs. Fountain Valley 💚 🚌|
+| 10/13 3 PM        | 📍 [CDM HS]() | JV | vs. Fountain Valley 💚 🚌|
+| 10/14 - 10/15 TBD        | 📍 [Newport Harbor HS]() | JV | Grey Lunde Tournament 🚌 🏁|
+| 10/19 4 PM         | 📍 [Edison HS]() | Hosting | Fountain Valley vs. Marina 🚨|
+| 10/19 5:10 PM         | 📍 [Edison HS]() | Varsity | vs. CDM 💚🏠|
+| 10/20 3 PM         | 📍 [Edison HS]() | Hosting | Fountain Valley vs. Marina JV 🚨|
+| 10/21 - 10/22 TBD        | 📍 [Mater Dei HS]() | JV | Mater Dei Tournament 🚌 🏁|
+| 10/26 4 PM        | 📍 [CDM HS]() | Varsity | vs. Marina 💚 🚌|
+| 10/27 3 PM        | 📍 [CDM HS]() | JV | vs. Marina 💚 🚌|
+
+
+
