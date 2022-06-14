@@ -21,6 +21,7 @@ _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
 | 9/21 4 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Marina 🚨|
 | 9/21 5:10 PM         | 📍 [Edison HS]() | Varsity | vs. Fountain Valley 💚🏠|
 | 9/22 3 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Marina JV 🚨|
+| 9/22 3/4 PM         | 📍 [Servite HS]() | Varsity, JV | @ Servite HS 🚌|
 | 9/27 3/4/5 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Northwood HS 🏠|
 | 9/21 2:30/5:10 PM         | 📍 [CDM HS]() | JV, Varsity | vs. CDM 💚|
 | 9/29 - 10/1 TBD   | 📍 [Foothill HS]()        | Varsity     | Villa Park Tournament 🏁|
