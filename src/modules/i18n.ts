@@ -1,4 +1,5 @@
 import { createI18n } from 'vue-i18n'
+import { plugin, defaultConfig } from '@formkit/vue'
 import { UserModule } from '~/types'
 
 // import i18n resources
@@ -20,4 +21,5 @@ export const install: UserModule = ({ app }) => {
   })
 
   app.use(i18n)
+  app.use(plugin, defaultConfig)
 }
