@@ -26,7 +26,7 @@ const redactedEmail = computed(() => {
   })
 })
 onBeforeMount(() => {
-  fetch(`/api/email-list/${props.id}`)
+  fetch(`/.netlify/functions/email-list/${props.id}`)
     .then(res => res.json())
     .then((data) => {
       const athleteEmails = data?.fields?.AthleteEmails.split(',').map(e => ({ email: e.trim(), isAthlete: true })) || []
@@ -65,7 +65,7 @@ const deleteEmail = (emailObj: { email: string; isAthlete: boolean }) => {
   updatedTimeout.value = setTimeout(() => {
     animate('#toast', { y: -200 }, { easing: spring() })
     updatedTimeout.value = null
-    fetch(`/api/email-list/${props.id}`, {
+    fetch(`/.netlify/functions/${props.id}`, {
       method: 'DELETE',
       body: JSON.stringify({ email: emailObj.email }),
     })
@@ -85,7 +85,7 @@ const changeEmailAthleteStatus = (email: string, isAthlete: boolean) => {
       e.isAthlete = isAthlete
     return e
   }) || []
-  fetch(`/api/email-list/${props.id}`, {
+  fetch(`/.netlify/functions/${props.id}`, {
     method: 'PUT',
     body: JSON.stringify({ email, isAthlete }),
   })

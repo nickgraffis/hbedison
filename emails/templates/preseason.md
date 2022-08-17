@@ -20,15 +20,15 @@ Athletes will need to be cleard by **August 24th** or they will not be able to p
 
 ### Steps for Clearance
 
-{{ context?.HomeCampus ? '✅' : '❌' }} Register on [Home Campus](). _You {{  context?.HomeCampus ? 'are' : ' are not'}} signed up on Home Campus_.
+{{ context?.HomeCampus ? '✅' : '❌' }} Register on [Home Campus](https://www.homecampus.com). _You {{  context?.HomeCampus ? 'are' : ' are not'}} signed up on Home Campus_.
 
-Sign up online [here]() and then verify your email. Then fill out all of the necessisary forms. 
+Sign up online [here](https://www.homecampus.com) and then verify your email. Then fill out all of the necessisary forms. 
 
 {{ context?.Physical ? '✅' : '❌' }} Provide the school with a current physical. _You {{ context?.Physical ? 'have a current physical on file with the school' : 'do not have a current physical on file with the school' }}_.
 
 {{ context?.Cleared ? '✅' : '❌' }} Take the online Concussion Baseline Test. If you have signed up on Home Campus, our athlete dirictor has already sent you a link to take the test. If you need to get that link again, email [Rich Boyce](mailto:rboyce@hbuhsd.edu).
 
-{{ context?.Cleared ? '✅' : '❌' }} Provide the school's financial office with a check made out to **Edison High School** for **$90.00** **_anytime between 12PM and 3 PM_**  for _"Training & Transportation Fees"_. Training refers to the schools trainer, not Coach Ashley, and transportation refers to our use of school busses and vans. 
+{{ context?.Cleared ? '✅' : '❌' }} Provide the school's financial office with a check made out to **Edison High School** for **$90.00** anytime **_between 12PM and 3 PM_**  for _"Training & Transportation Fees"_. Training refers to the schools trainer, not Coach Ashley, and transportation refers to our use of school busses and vans. 
 
 **{{ context?.Cleared ? '🎉 You are currently cleared' : '❌ You are not currently cleared' }}.**
 
@@ -98,17 +98,7 @@ You either gave me your T-Shirt Size at practice, or I guessed. It is **{{ conte
 
 If you want to change the T-Shirt/Polo Shirt Size you can do so [here](https://edisonwp.com/shirt-size/{{ context?.id }}).
 
-## Coaching Staff
+Thanks, more info will come soon.
 
-**Head Coach** - Nick Graffis [ngraffis@hubuhsd.edu](mailto:ngraffis@hbuhsd.edu) \
-**Varsity Assistant** - Brian Huyhn \
-**F/S Co-Head Coach** - Ashley Hogan \
-**F/S Co-Head Coach/Goalies** - Coryn Cavecchee \
-**Weight Trainer** - Ashley Penntegil \
-
-## Parent Communication Guide
-
-Edison has provided a panflet to help parents to understand the best way to communicate with their coaches. [Here is the PDF of this panflet]().
-
-Essentially it says that:
+Nick
 
