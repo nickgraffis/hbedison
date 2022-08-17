@@ -12,3 +12,6 @@ node_modules
 .netlify
 .env
 emails/stage
+private.txt
+hbedison.git
+hbedison.git.bfg-report
