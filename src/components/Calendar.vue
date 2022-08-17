@@ -27,7 +27,7 @@ const newEventModal = ref({
 
 const isAuth = async() => {
   try {
-    const res = await fetch('/api/is-authenticated', {
+    const res = await fetch('/.netlify/functions/is-authenticated', {
       headers: {
         'Content-Type': 'application/json',
       },
@@ -47,7 +47,7 @@ const isAuth = async() => {
 }
 
 onBeforeMount(() => {
-  fetch('/api/get-events')
+  fetch('/.netlify/functions/get-events')
     .then(res => res.json())
     .then((data) => {
       console.log(data)
@@ -63,7 +63,7 @@ onBeforeMount(() => {
 })
 
 const login = () => {
-  fetch('/api/login', {
+  fetch('/.netlify/functions/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -149,7 +149,7 @@ const doubleClick = (day: any) => {
 const deleteReoccuringEvent = () => {
   const event = events.value.find(e => e.id === currentEvent.value?.id && e.date === currentEvent.value?.date)
   console.log(event)
-  const res = fetch(`/api/delete-event/${event?.id}`, {
+  const res = fetch(`/.netlify/functions/delete-event/${event?.id}`, {
     headers: {
       'Content-Type': 'application/json',
     },

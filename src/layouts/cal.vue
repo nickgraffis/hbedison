@@ -5,7 +5,7 @@ const router = useRouter()
 const isLoggedIn = ref(false)
 const isAuth = async() => {
   try {
-    const res = await fetch('/api/is-authenticated', {
+    const res = await fetch('/.netlify/functions/is-authenticated', {
       headers: {
         'Content-Type': 'application/json',
       },
