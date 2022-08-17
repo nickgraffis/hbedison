@@ -12,8 +12,8 @@ _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
 | 8/22         | 📍 [Edison HS]() | All Levels | 2022 Season Training Begins 🏠|
 | 8/24 2:30 - 6 PM      | 📍 [Northwood HS]()       |  F/S, Varsity, JV | Scrimamge vs. Northwood |
 | 9/2 - 9/3   | 📍 [Belmont Plaza Pool]()        | Varsity     | Long Beach Tournament 🚌 🏁|
-| 9/7 3/4 PM         | 📍 [Edison HS]() | Varsity, JV | vs. University HS 🏠|
-| 9/8 3/4/5 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Long Beach Poly HS 🏠|
+| 9/7 3/4/5 PM         | 📍 [Edison HS]() | Varsity, JV | vs. University HS 🏠|
+| 9/8 4/5/6 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Long Beach Poly HS 🏠|
 | 9/14 3/4/5 PM         | 📍 [Irvine HS]() | F/S, Varsity, JV | @ Irvine HS 🚌|
 | 9/15 - 9/17 TBD   | 📍 [Edison HS]()        | Varsity     | South Coast Tournament 🏁🏠|
 | 9/20 3/4 PM         | 📍 [Pacifica HS]() | Varsity, JV | @ Pacifica HS 🚌|
@@ -23,7 +23,6 @@ _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
 | 9/22 3 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Marina JV 🚨|
 | 9/27 3/4/5 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Northwood HS 🏠|
 | 9/28 2:30/5:10 PM         | 📍 [CDM HS]() | JV, Varsity | vs. CDM 💚|
-| 9/29 - 10/1 TBD   | 📍 [Foothill HS]()        | Varsity     | Villa Park Tournament 🏁|
 | 10/4 3/4 PM         | 📍 [Edison HS]() | Varsity, JV | vs. Costa Mesa HS 🏠|
 | 10/5 2:30 PM         | 📍 [Edison HS]() | JV | vs. Marina 💚🏠|
 | 10/5 4 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Fountain Valley 🚨|
