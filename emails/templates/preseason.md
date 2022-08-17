@@ -2,7 +2,8 @@ Hey {{ context.Name }},
 
 The boys water polo season will officially begin on August 22nd. Here are some really important things to know and do before we get started. **We will also have a Parent Meeting August 23rd at 7 PM at the Edison HS Library**. 
 
-Take a look at some important information below for this season. Or [view this email in the browser](https://edisonwp.com/emails/preseason?{{ Object.keys(context)?.map(key => `${key}=${context[key]}`).join('&') }})
+Take a look at some important information below for this season. Or 
+[view this email in the browser](https://edisonwp.com/emails-sent/{{ context?.emailId }}-{{ context?.id }})
 
 ## Email List & Communication
 
@@ -45,28 +46,28 @@ We will practice in two groups often, and those groups will not be set in stone 
 
 **Green Group**
 
-M (Aug 22) 6 - 8 AM @ HBHS </br>
-T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
-W (Aug 24) 6 - 8 AM @ Edison HS </br>
-W (Aug 24) 3 - 6 PM @ Northwood HS Scrimmage (No Transportation) </br>
-Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
-Fri (Aug 26) 6 - 8 AM @ Edison HS </br>
-Sat (Aug 27) OFF </br>
-Sun (Aug 28) OFF </br>
-M (Aug 29) 6 - 8 AM @ HBHS </br>
-T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+M (Aug 22) 6 - 8 AM @ HBHS \
+T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
+W (Aug 24) 6 - 8 AM @ Edison HS \
+W (Aug 24) 3 - 6 PM @ Northwood HS Scrimmage (No Transportation) \
+Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
+Fri (Aug 26) 6 - 8 AM @ Edison HS \
+Sat (Aug 27) OFF \
+Sun (Aug 28) OFF \
+M (Aug 29) 6 - 8 AM @ HBHS \
+T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
 
 **Gold Group**
 
-M (Aug 22) 3 - 5 PM @ Edison HS </br>
-T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
-W (Aug 24) 2 - 4 PM @ Northwood HS (No Transportation) </br>
-Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
-Fri (Aug 26) 3 - 5 PM @ Edison HS </br>
-Sat (Aug 27) OFF </br>
-Sun (Aug 28) OFF </br>
-M (Aug 29) 3 - 5 PM @ Edison HS </br>
-T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+M (Aug 22) 3 - 5 PM @ Edison HS \
+T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
+W (Aug 24) 2 - 4 PM @ Northwood HS (No Transportation) \
+Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
+Fri (Aug 26) 3 - 5 PM @ Edison HS \
+Sat (Aug 27) OFF \
+Sun (Aug 28) OFF \
+M (Aug 29) 3 - 5 PM @ Edison HS \
+T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
 
 
 ## Schedule Once School Starts
@@ -79,16 +80,16 @@ I will provide a more detailed schedule very soon for the season, but here are s
 
 **Green Group**
 
-W (Aug 31) First Day of School - Attend **ALL** classes, including your Water Polo class with Mr. Whittmore. </br>
-W (Aug 31) 5:30 - 7:30 PM @ Edison HS </br>
-Th (Sept 1) 5:30 - 7:30 PM @ Edison HS </br>
-Fri (Sept 2) Varsity Long Beach Tournament - Roster and Times TBA </br>
-Sat (Sept 3) Varsity Long Beach Tournament - Roster and Times TBA (No Transportation) </br>
+W (Aug 31) First Day of School - Attend **ALL** classes, including your Water Polo class with Mr. Whittmore. \
+W (Aug 31) 5:30 - 7:30 PM @ Edison HS \
+Th (Sept 1) 5:30 - 7:30 PM @ Edison HS \
+Fri (Sept 2) Varsity Long Beach Tournament - Roster and Times TBA \
+Sat (Sept 3) Varsity Long Beach Tournament - Roster and Times TBA (No Transportation) \
 
 **Gold Group**
 
-W (Aug 31) First Day of School - Attend **ALL** classes, including your Water Polo class with Mr. Whittmore. </br>
-Th (Sept 1) 3 - 5 PM @ Edison HS </br>
+W (Aug 31) First Day of School - Attend **ALL** classes, including your Water Polo class with Mr. Whittmore. \
+Th (Sept 1) 3 - 5 PM @ Edison HS \
 Fri (Sept 2) 3:30 - 4:30 PM Weightroom + 4:30 - 5:30 PM Pool @ Edison
 
 ## T-Shirt Size & Uniform
@@ -99,11 +100,11 @@ If you want to change the T-Shirt/Polo Shirt Size you can do so [here](https://e
 
 ## Coaching Staff
 
-**Head Coach** - Nick Graffis [ngraffis@hubuhsd.edu](mailto:ngraffis@hbuhsd.edu) </br>
-**Varsity Assistant** - Brian Huyhn </br>
-**F/S Co-Head Coach** - Ashley Hogan </br>
-**F/S Co-Head Coach/Goalies** - Coryn Cavecchee </br>
-**Weight Trainer** - Ashley Penntegil </br>
+**Head Coach** - Nick Graffis [ngraffis@hubuhsd.edu](mailto:ngraffis@hbuhsd.edu) \
+**Varsity Assistant** - Brian Huyhn \
+**F/S Co-Head Coach** - Ashley Hogan \
+**F/S Co-Head Coach/Goalies** - Coryn Cavecchee \
+**Weight Trainer** - Ashley Penntegil \
 
 ## Parent Communication Guide
 

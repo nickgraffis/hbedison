@@ -14,6 +14,7 @@ specifiers:
   '@vue/server-renderer': ^3.0.11
   '@vueuse/core': ^4.9.2
   '@vueuse/head': ^0.5.1
+  '@vueuse/router': ^9.1.0
   '@windicss/animations': ^1.0.8
   airtable: ^0.11.0
   bottom-sheet-vue3: ^1.0.2
@@ -57,6 +58,7 @@ dependencies:
   '@iconify/iconify': 2.2.1
   '@vueuse/core': 4.11.2_vue@3.2.37
   '@vueuse/head': 0.5.1_vue@3.2.37
+  '@vueuse/router': 9.1.0_n2lopajdblj3vlk4od6dtonjcq
   '@windicss/animations': 1.0.8
   airtable: 0.11.4
   bottom-sheet-vue3: 1.0.2
@@ -2281,8 +2283,30 @@ packages:
     dependencies:
       vue: 3.2.37
 
+  /@vueuse/router/9.1.0_n2lopajdblj3vlk4od6dtonjcq:
+    resolution: {integrity: sha512-ub2B8XfHCQXX4Migab9bBnFjJI+NmqeLbQox1UdhWhy9cZIpgKx40aW7eq/LLUMGVIKAdriDI6YsD0LZrZFeaA==}
+    peerDependencies:
+      vue-router: '>=4.0.0-rc.1'
+    dependencies:
+      '@vueuse/shared': 9.1.0_vue@3.2.37
+      vue-demi: 0.13.1_vue@3.2.37
+      vue-router: 4.0.16_vue@3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
   /@vueuse/shared/4.11.2_vue@3.2.37:
     resolution: {integrity: sha512-vTbTi6ou7ljH3CkKVoaIaCAoWB5T1ewSogpL6VnO1duMPNuiv7x8K/LunMbnTg4tVyt6QwaiCuEq/kyS6AUBRg==}
+    dependencies:
+      vue-demi: 0.13.1_vue@3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
+  /@vueuse/shared/9.1.0_vue@3.2.37:
+    resolution: {integrity: sha512-pB/3njQu4tfJJ78ajELNda0yMG6lKfpToQW7Soe09CprF1k3QuyoNi1tBNvo75wBDJWD+LOnr+c4B5HZ39jY/Q==}
     dependencies:
       vue-demi: 0.13.1_vue@3.2.37
     transitivePeerDependencies:

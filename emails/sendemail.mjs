@@ -1,14 +1,15 @@
 import fs from 'fs'
 import dotenv from 'dotenv'
 import { parse } from 'marked'
+import { nanoid } from 'nanoid'
 import { sendEmail, getEmailList } from './utils.mjs'
+
 dotenv.config()
-// Step 1:
-// Read the template from the fs
 const template = fs.readFileSync(`./emails/templates/${process.argv[2]}.md`, 'utf8')
 // Step 2:
 // Get the accounts from airtable
 const accounts = await getEmailList()
+const emailId = nanoid(8)
 // Step 3:
 // Replace anything inside the {{ }}
 for (let a = 0; a < accounts.length; a++) {
@@ -19,11 +20,13 @@ for (let a = 0; a < accounts.length; a++) {
   for (let i = 0; i < js.length; i++) {
     const j = js[i]
     const context = account
+    context.emailId = emailId
     const evaluatedValue = eval(j)
     // replace
     _template = _template.replace(j, evaluatedValue)
     if (a === 0) console.log(_template)
     if (a === 0) fs.writeFileSync(`./emails/test/${context.Name}.html`, parse(_template))
+    if (a === 0) fs.writeFileSync(`./src/pages/emails-sent/${emailId}-${context.id}.md`, _template)
   }
 
   // Step 4:
