@@ -14,6 +14,8 @@ I have cleaned up the email list a significant amount, this email was sent to th
 
 If you would like to add, remove, or update an email from an "_Athlete_" to a _"Parent"_ email, you can do so [here](https://edisonwp.com/email-list/{{ context.id }}).
 
+Please help the rest of the team as well, if someone did not get an email, have them contact me at [ngraffis@hbuhsd.edu](mailto:ngraffis@hbuhsd.edu) and we will make sure that they are on the roster.
+
 ## Athlete Clearance
 
 Athletes will need to be cleard by **August 24th** or they will not be able to participate in games, scrimmages, or practice. Not being cleared will result in an unescused abscense. 
