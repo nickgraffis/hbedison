@@ -29,7 +29,7 @@ onBeforeMount(() => {
   fetch(`/.netlify/functions/email-list/${props.id}`)
     .then(res => res.json())
     .then((data) => {
-      const athleteEmails = data?.fields?.AthleteEmails.split(',').map(e => ({ email: e.trim(), isAthlete: true })) || []
+      const athleteEmails = data?.fields?.AthleteEmails?.split(',').map(e => ({ email: e.trim(), isAthlete: true })) || []
       const parentEmails = data?.fields?.ParentEmails?.split(',').map(e => ({ email: e.trim(), isAthlete: false })) || []
       const allEmails = [...athleteEmails, ...parentEmails]
       emails.value = allEmails
@@ -65,7 +65,7 @@ const deleteEmail = (emailObj: { email: string; isAthlete: boolean }) => {
   updatedTimeout.value = setTimeout(() => {
     animate('#toast', { y: -200 }, { easing: spring() })
     updatedTimeout.value = null
-    fetch(`/.netlify/functions/${props.id}`, {
+    fetch(`/.netlify/functions/email-list/${props.id}`, {
       method: 'DELETE',
       body: JSON.stringify({ email: emailObj.email }),
     })
@@ -85,7 +85,7 @@ const changeEmailAthleteStatus = (email: string, isAthlete: boolean) => {
       e.isAthlete = isAthlete
     return e
   }) || []
-  fetch(`/.netlify/functions/${props.id}`, {
+  fetch(`/.netlify/functions/email-list/${props.id}`, {
     method: 'PUT',
     body: JSON.stringify({ email, isAthlete }),
   })
