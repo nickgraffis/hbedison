@@ -108,7 +108,7 @@ export default defineConfig({
 
     // https://github.com/antfu/vite-plugin-windicss
     WindiCSS({
-      safelist: 'opacity-25 opacity-75 text-red-500 animate-spin h-5 w-5 text-gray-100 flex-shrink-0 text-red-400 prose prose-sm m-auto text-left bg-green-500 text-gray-100 font-medium font-semibold hover:bg-green-400 text-sm text-xs lg:text-base',
+      safelist: 'opacity-25 opacity-75 text-red-500 animate-spin h-5 w-5 text-gray-100 flex-shrink-0 text-red-400 prose prose-sm m-auto text-left bg-green-500 text-gray-100 font-medium font-semibold hover:bg-green-400 text-sm text-xs lg:text-base bg-pink-500 bg-blue-500 bg-red-500',
     }),
 
     // https://github.com/intlify/vite-plugin-vue-i18n

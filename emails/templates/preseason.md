@@ -1,75 +1,113 @@
-Hey {{ context.Name }} and Family,
+Hey {{ context.Name }},
 
-I'm working hard to make sure the email list is extreamly clean and accurate. Here is who I sent this email to: {{ context.AthleteEmails }}.
+The boys water polo season will officially begin on August 22nd. Here are some really important things to know and do before we get started. **We will also have a Parent Meeting August 23rd at 7 PM at the Edison HS Library**. 
 
-If there are additional emails you want to add to the list, please email me at [ngraffis@hbuhsd.edu](mailto:ngraffis@hbuhsd.edu) and we can add them.
+Take a look at some important information below for this season. Or [view this email in the browser](https://edisonwp.com/emails/preseason?{{ Object.keys(context)?.map(key => `${key}=${context[key]}`).join('&') }})
 
-The season is beginning next Monday, August 22nd. 
+## Email List & Communication
 
-The first thing we all need to do is **finish our clearance process**.
+I have cleaned up the email list a significant amount, this email was sent to the following addresses:
 
-## Clearance Process
-1. Head to [homcampus](https://www.homecampus.com).com you can start the process by:
-  * Signing up for an account
-  * Verifying your email address
-  * Filling out the neccessary forms
+**Athlete Emails**: {{ context.AthleteEmails }}
+{{ context?.ParentEmails ? '**ParentEmails:** ' + context.ParentEmails : '' }}
 
-You are currently {{ context.HomeCampus ? '**signed up**' : '**not signed up**' }} for HomeCampus.
+If you would like to add, remove, or update an email from an "_Athlete_" to a _"Parent"_ email, you can do so [here](https://edisonwp.com/email-list/{{ context.id }}).
 
-2. Make sure that you have a current physcial on file with the school. If you gave me one over the summer, the school now has it. 
+## Athlete Clearance
 
-Your physical is {{ context.Physical ? '**current**' : '**not current**' }}.
+Athletes will need to be cleard by **August 24th** or they will not be able to participate in games, scrimmages, or practice. Not being cleared will result in an unescused abscense. 
 
-3. Check your email, if you signed up on Home Campus, you got an email from our Athletic Director to take your online concussion test.
+### Steps for Clearance
 
-4. Go to the school's financial office anytime between 12 and 3 PM and give them a check, made out to _"Edison High School"_ for _"$90"_. This fee is for _"Training and Transportation"_ - Training refers not to coach Ashley, but the school's trainer. Transportation refers to busses and vans that we will take throughout the year.
+{{ context?.HomeCampus ? '✅' : '❌' }} Register on [Home Campus](). _You {{  context?.HomeCampus ? 'are' : ' are not'}} signed up on Home Campus_.
 
-## Before School Starts
-The next week and a half, before school starts, you will practice with your training group: 
+Sign up online [here]() and then verify your email. Then fill out all of the necessisary forms. 
 
-{{ context.Name }}'s Training Group: **{{ context.Team }}**.
+{{ context?.Physical ? '✅' : '❌' }} Provide the school with a current physical. _You {{ context?.Physical ? 'have a current physical on file with the school' : 'do not have a current physical on file with the school' }}_.
 
-Training Groups will change as we get into the season.
+{{ context?.Cleared ? '✅' : '❌' }} Take the online Concussion Baseline Test. If you have signed up on Home Campus, our athlete dirictor has already sent you a link to take the test. If you need to get that link again, email [Rich Boyce](mailto:rboyce@hbuhsd.edu).
 
-Know that attendance is **MANDATORY**. Athletes who do not attend practices and games, will be marked absent from their class and will be dropped if the issue continues.
+{{ context?.Cleared ? '✅' : '❌' }} Provide the school's financial office with a check made out to **Edison High School** for **$90.00** **_anytime between 12PM and 3 PM_**  for _"Training & Transportation Fees"_. Training refers to the schools trainer, not Coach Ashley, and transportation refers to our use of school busses and vans. 
 
-Green Training Group:
+**{{ context?.Cleared ? '🎉 You are currently cleared' : '❌ You are not currently cleared' }}.**
 
-* M (Aug 22nd) - 6 - 8 AM @ HBHS
-* T (Aug 23rd) - 6 - 8 AM @ Edison HS (Weightroom 6 - 7 AM)
-* T (Aug 23rd) - 7 - 8 PM Parent Meeting @ Edison HS Library
-* W (Aug 24th) - 6 - 8 AM @ HBHS
-* W (Aug 24th) - Scrimmage @ Northwood HS 3 PM - 6 PM. No transportation.
-* Th (Aug 25th) - 6 - 8 AM @ Edison HS (Weightroom 6 - 7 AM)
-* Fri (Aug 26th) - 6 - 8 AM @ Edison HS
-* Sat OFF
-* Sun OFF 
-* M (Aug 29th) - 6 - 8 AM @ HBHS
-* T (Aug 30th) - 6 - 8 AM @ Edison HS (Weightroom 6 - 7 AM)
-* W (Aug 31st) - First Day of School. Need to go to **_ALL_** classes. 
-* W (Aug 31st) - 6 - 8 PM @ Edison HS
-* Th (Sept 1) - 2:30 - 4:30 PM @ Edison HS
-* Fri (Sept 2) - Tournament @ Long Beach - Bus leaves Edison TBD
-* Sat (Sept 3) - Tournament @ Long School - No transportation
+## Game Schedule
 
-Gold Training Group:
+The [Game Schedule](https://edisonwp.com/boys) has not changed significantly since it was posted months ago. You can view it [here](https://edisonwp.com/boys).
 
-* M 3 - 5 PM @ Edison HS
-* T (Aug 23rd) - 6 - 7 AM @ Edison HS Weightroom
-* T (Aug 23rd) - 6 - 7 PM Parent Meeting @ Edison HS Library
-* W (Aug 24th) - Scrimamge @ Northwood HS 2 - 4 PM. No transportation.
-* Th (Aug 25th) - 6 - 7 AM @ Edison HS Weightroom
-* Fri 3 - 5 PM @ Edison HS
-* M 3 - 5 PM @ Edison HS
-* T (Aug 30th) 6 - 7 AM @ Edison HS Weightroom
-* W - OFF - Need to go to **_ALL_** classes
-* Th - 3 - 5 PM @ Edison HS
-* Fri - 3 - 5 PM @ Edison HS
+## Practice Groups
 
-## Season Games Schedule
+We will practice in two groups often, and those groups will not be set in stone and will change until we get deeper into season. 
 
-There have been no major changes to our games schedule, you can find it [here](https://edisonwp.com/boys).
+{{ context?.Name }}, you are in the **{{ context?.Team }} Group**.
 
-## T-Shirt Size
+## Schedule Before School Starts
 
-Lastly, this is the T-Shirt Size you either gave me at practice, or if you were not there, that I guessed. **({{ context.ShirtSize }})** If it is incorrect. Follow this [link](https://edisonwp.com/t-shirt/{{ context.id }}) to change it.
+**Green Group**
+
+M (Aug 22) 6 - 8 AM @ HBHS </br>
+T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+W (Aug 24) 6 - 8 AM @ Edison HS </br>
+W (Aug 24) 3 - 6 PM @ Northwood HS Scrimmage (No Transportation) </br>
+Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+Fri (Aug 26) 6 - 8 AM @ Edison HS </br>
+Sat (Aug 27) OFF </br>
+Sun (Aug 28) OFF </br>
+M (Aug 29) 6 - 8 AM @ HBHS </br>
+T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+
+**Gold Group**
+
+M (Aug 22) 3 - 5 PM @ Edison HS </br>
+T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+W (Aug 24) 2 - 4 PM @ Northwood HS (No Transportation) </br>
+Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+Fri (Aug 26) 3 - 5 PM @ Edison HS </br>
+Sat (Aug 27) OFF </br>
+Sun (Aug 28) OFF </br>
+M (Aug 29) 3 - 5 PM @ Edison HS </br>
+T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) </br>
+
+
+## Schedule Once School Starts
+
+I will provide a more detailed schedule very soon for the season, but here are some things to know: 
+
+1. We will always practice after school or later. 
+2. All practices will be at Edison HS. 
+3. Athlete's are **REQUIRED** to attend **ALL** practices and games. Athletes who are not present for practice, or a game, will be marked absent in thier class. If unescused abscenses continue, athletes will be dropped from the class, and therfore not be a part of the team.
+
+**Green Group**
+
+W (Aug 31) First Day of School - Attend **ALL** classes, including your Water Polo class with Mr. Whittmore. </br>
+W (Aug 31) 5:30 - 7:30 PM @ Edison HS </br>
+Th (Sept 1) 5:30 - 7:30 PM @ Edison HS </br>
+Fri (Sept 2) Varsity Long Beach Tournament - Roster and Times TBA </br>
+Sat (Sept 3) Varsity Long Beach Tournament - Roster and Times TBA (No Transportation) </br>
+
+**Gold Group**
+
+W (Aug 31) First Day of School - Attend **ALL** classes, including your Water Polo class with Mr. Whittmore. </br>
+Th (Sept 1) 3 - 5 PM @ Edison HS </br>
+Fri (Sept 2) 3:30 - 4:30 PM Weightroom + 4:30 - 5:30 PM Pool @ Edison
+
+## T-Shirt Size & Uniform
+
+You either gave me your T-Shirt Size at practice, or I guessed. It is **{{ context?.ShirtSize }}**.
+
+If you want to change the T-Shirt/Polo Shirt Size you can do so [here](https://edisonwp.com/shirt-size/{{ context?.id }}).
+
+## Coaching Staff
+
+**Head Coach** - Nick Graffis [ngraffis@hubuhsd.edu](mailto:ngraffis@hbuhsd.edu) </br>
+**Varsity Assistant** - Brian Huyhn </br>
+**F/S Co-Head Coach** - Ashley Hogan </br>
+**F/S Co-Head Coach/Goalies** - Coryn Cavecchee </br>
+**Weight Trainer** - Ashley Penntegil </br>
+
+## Parent Communication Guide
+
+Edison has provided a panflet to help parents to understand the best way to communicate with their coaches. [Here is the PDF of this panflet]().
+
+Essentially it says that:
+

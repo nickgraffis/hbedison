@@ -12,4 +12,3 @@ node_modules
 .netlify
 .env
 emails/stage
-emails/templates
