@@ -8,7 +8,7 @@ const getRecords = async(id: string) => {
     const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base('app3MsHdgqtfhm89e')
     base('Boys').find(id, (err, record) => {
       if (err) reject(err)
-      resolve(record)
+      resolve(record?._rawJson)
     })
   })
 }
@@ -30,7 +30,8 @@ const updateShirtSize = async(id: string, size: string) => {
 
 const handler: Handler = async(event) => {
   let user
-  const [, id] = event.path.split('/')
+  const [, , , , id] = event.path.split('/')
+  console.log(id)
   const method = event.httpMethod
   if (method === 'GET') {
     try {
@@ -43,6 +44,7 @@ const handler: Handler = async(event) => {
       }
     }
     catch (error) {
+      console.log(error)
       return { statusCode: 500, body: error.toString() }
     }
   }
@@ -50,10 +52,10 @@ const handler: Handler = async(event) => {
     try {
       const shirtSize = JSON.parse(event.body || '{ "size": "L" }').size
       await updateShirtSize(id, shirtSize)
-
+      const user = await getRecords(id)
       return {
         statusCode: 200,
-        body: JSON.stringify('user updated'),
+        body: JSON.stringify(user),
       }
     }
     catch (error) {
