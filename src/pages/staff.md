@@ -11,24 +11,32 @@ In addition to his work at Edison, Nick is a youth water polo coach at Vanguard 
 
 Nick is also, currently, an Assistant Coach at Cypress Community College, and has previously coached at Orange Coast College, Huntington Beach High School, and UC Irvine Club Sports. 
 
-## Ashley Hogan
+## Kyle Cenicola
+### Assistant Coach Mens and Womens Water Polo
+Kyle has been coaching at Edison for the past 4 years after moving to Huntington Beach from Palm Desert where he attended Xavier Prep. He won a state Championships at Goldenwest College in 2019 and is currently attending Long Beach State University.
+
+Outside of coaching, Kyle is a Lifeguard for the City of Huntington Beach.
+
+<!-- ## Ashley Hogan
+
 ### Assistant Coach Mens and Womens Water Polo
 Ashley is an alumni of Edison where, in 2020, she was the starting defender for the team the went to the CIF Semifinals. Ashley was Honorable Mention in the CIF Playoffs in 2020.
 
 Ashley has been coaching at Vanguard Aquatics for the last 2 years and is currrently a member of the Goldenwest College Womens Water Polo team.
 
 ## Coryn Cavechee
+
 ### Assistant Coach Mens and Womens Water Polo
 Ashley is an alumni of Edison where, in 2020, she was the starting defender for the team the went to the CIF Semifinals. Ashley was Honorable Mention in the CIF Playoffs in 2020.
 
-Ashley has been coaching at Vanguard Aquatics for the last 2 years and is currrently a member of the Goldenwest College Womens Water Polo team.
+Ashley has been coaching at Vanguard Aquatics for the last 2 years and is currrently a member of the Goldenwest College Womens Water Polo team. -->
+
+## Dylan Honrath
+### Assistant Coach Mens and Womens Water Polo
+Dylan began coaching at Edison in 2020. Dylan attended Hungtington Beach High School, and is currently attending Goldenwest College.
+
+Outside of coaching, Dylan is a Lifeguard for the City of Huntington Beach.
 
 ## Laura Huynh
 ### Assistant Coach Mens and Womens Water Polo
 Laura has been assisting Edison for the past five years. In addition to her work at Edison, she is a youth water polo coach at Vanguard Aquatics where she has lead the 10U & 12U girls teams for the past several years. In that time the team has reached the semifinals of National Junior Olympics every year, and the finals twice.
-
-## Kyle Cenicola
-### Assistant Coach Mens and Womens Water Polo
-Kyle has been coaching at Edison for the past 4 years after moving to Huntington Beach from Palm Desert where he attended Xavier Prep. He won a state Championships at Goldenwest College in 2019 and is currently attending Long Beach State University.
-
-Outside of coaching, Kyle is a Lifeguard for the City of Huntington Beach.
