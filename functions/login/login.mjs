@@ -30,7 +30,7 @@ export const handler = async(event) => {
     if (event.httpMethod !== 'POST') return { statusCode: 405, body: 'Method Not Allowed' }
     const { username, password } = JSON.parse(event.body)
     console.log(process.env.AIRTABLE_API_KEY)
-    if (username !== 'nickgraffis' && password !== '***REMOVED***') return { statusCode: 401, body: 'Unauthorized' }
+    if (username !== process.env.USERNAME && password !== process.env.PASSWORD) return { statusCode: 401, body: 'Unauthorized' }
     const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base('app3MsHdgqtfhm89e')
     const ip = event.headers['client-ip']
     const prev = await findPreviousLogin(ip)
