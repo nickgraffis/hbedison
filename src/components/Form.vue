@@ -47,7 +47,7 @@ const processForm = (event?: Event) => {
     isAthlete: isAthlete.value,
     emails: email.value,
   }
-  fetch(`/api/email-list/${props.id}`, {
+  fetch(`/.netlify/functions/email-list/${props.id}`, {
     method: 'POST',
     body: JSON.stringify(data),
   })

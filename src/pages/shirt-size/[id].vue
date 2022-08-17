@@ -20,7 +20,7 @@ const user = ref<User | null>(null)
 const toast = ref(null)
 const sizes = ref(['S', 'M', 'L', 'XL', '2XL'])
 onBeforeMount(() => {
-  fetch(`/api/shirt-size/${props.id}`)
+  fetch(`/.netlify/functions/shirt-size/${props.id}`)
     .then(res => res.json())
     .then((data) => {
       user.value = data
@@ -38,7 +38,7 @@ const updateSize = (size: string) => {
   }
   if (!user.value) return
   user.value.fields.ShirtSize = size
-  fetch(`/api/shirt-size/${props.id}`, {
+  fetch(`/.netlify/functions/shirt-size/${props.id}`, {
     method: 'POST',
     body: JSON.stringify({ size }),
   })

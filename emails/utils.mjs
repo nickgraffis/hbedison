@@ -2,20 +2,22 @@
 import Airtable from 'airtable'
 import nodemailer from 'nodemailer'
 
-export function sendEmail(to, html) {
+export function sendEmail({ emails, html, subject }) {
   return new Promise((resolve, reject) => {
     const transporter = nodemailer.createTransport({
-      host: 'smtp.hey.com',
+      host: 'smtp.sendgrid.net',
       port: '587',
       auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASS,
+        user: process.env.SENDGRID_USERNAME,
+        pass: process.env.SENDGRID_PASSWORD,
       },
     })
+    const [to, ...cc] = emails.split(',')
     const mailOptions = {
-      from: '',
+      from: 'ngraffis@hbuhsd.edu',
       to,
-      subject: '',
+      ...(cc?.length) && { cc: cc.join(',') },
+      subject,
       html,
     }
     transporter.sendMail(mailOptions, (err, info) => {
