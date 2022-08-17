@@ -5,7 +5,6 @@ import App from './App.vue'
 import 'virtual:windi.css'
 import 'virtual:windi-devtools'
 import './styles/main.css'
-import 'vue-toast-notification/dist/theme-sugar.css'
 
 const routes = setupLayouts(generatedRoutes)
 
