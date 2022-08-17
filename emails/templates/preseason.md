@@ -63,8 +63,8 @@ M (Aug 22) 3 - 5 PM @ Edison HS \
 T (Aug 23) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
 W (Aug 24) 2 - 4 PM @ Northwood HS (No Transportation) \
 Th (Aug 25) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
-Fri (Aug 26) 3 - 5 PM @ Edison HS \
-Sat (Aug 27) OFF \
+Fri (Aug 26) Long Beach F/S Tournament @ LB Poly HS Times TBA \
+Sat (Aug 27) Long Beach F/S Tournament @ LB Poly HS Times TBA \
 Sun (Aug 28) OFF \
 M (Aug 29) 3 - 5 PM @ Edison HS \
 T (Aug 30) 6 - 8 AM @ Edison HS (6 - 7 AM Weightroom) \
