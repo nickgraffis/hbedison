@@ -4,7 +4,7 @@ import Airtable from 'airtable'
 import { nanoid } from 'nanoid'
 
 const cleanUpCommas = (stringOfEmails: string) => {
-  const arrayOfEmails = stringOfEmails.split(',')
+  const arrayOfEmails = stringOfEmails?.split(',')
   const cleanedUpArray = arrayOfEmails.filter(Boolean).map(email => email.trim())
   return cleanedUpArray.join(',')
 }
@@ -106,15 +106,16 @@ const handler: Handler = async(event) => {
       const user = await getRecords(id)
       let AthleteEmails = user?.fields.AthleteEmails || ''
       let ParentEmails = user?.fields.ParentEmails || ''
+      console.log(isAthlete, email)
       if (isAthlete) {
-        AthleteEmails = AthleteEmails.replace(email, '')
-        ParentEmails = `${ParentEmails}${ParentEmails ? `, ${email}` : email}`
-      }
-      else {
         AthleteEmails = `${AthleteEmails}${AthleteEmails ? `, ${email}` : email}`
         ParentEmails = ParentEmails.replace(email, '')
       }
-
+      else {
+        AthleteEmails = AthleteEmails.replace(email, '')
+        ParentEmails = `${ParentEmails}${ParentEmails ? `, ${email}` : email}`
+      }
+      console.log(AthleteEmails, ParentEmails)
       await updateEmails(id, cleanUpCommas(AthleteEmails), cleanUpCommas(ParentEmails))
 
       const returnUser = await getRecords(id)
