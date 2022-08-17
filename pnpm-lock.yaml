@@ -29,6 +29,7 @@ specifiers:
   markdown-it-prism: ^2.1.6
   markdown-it-twemoji: ^1.5.0
   marked: ^4.0.18
+  motion: ^10.14.0
   nanoid: ^4.0.0
   nodemailer: ^6.7.8
   nprogress: ^0.2.0
@@ -67,6 +68,7 @@ dependencies:
   markdown-it-link-attributes: 3.0.0
   markdown-it-twemoji: 1.5.0
   marked: 4.0.18
+  motion: 10.14.0
   nanoid: 4.0.0
   nodemailer: 6.7.8
   nprogress: 0.2.0
@@ -1648,6 +1650,67 @@ packages:
       '@jridgewell/resolve-uri': 3.0.7
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: true
+
+  /@motionone/animation/10.14.0:
+    resolution: {integrity: sha512-h+1sdyBP8vbxEBW5gPFDnj+m2DCqdlAuf2g6Iafb1lcMnqjsRXWlPw1AXgvUMXmreyhqmPbJqoNfIKdytampRQ==}
+    dependencies:
+      '@motionone/easing': 10.14.0
+      '@motionone/types': 10.14.0
+      '@motionone/utils': 10.14.0
+      tslib: 2.4.0
+    dev: false
+
+  /@motionone/dom/10.14.0:
+    resolution: {integrity: sha512-HK/VHJZ4sv5oiFFJRKzIMww0xwKcvla/xeLOmYycjYilwAcQh1DuztU1xrtcaRh7NysQciiwURS9x51ertNM6Q==}
+    dependencies:
+      '@motionone/animation': 10.14.0
+      '@motionone/generators': 10.14.0
+      '@motionone/types': 10.14.0
+      '@motionone/utils': 10.14.0
+      hey-listen: 1.0.8
+      tslib: 2.4.0
+    dev: false
+
+  /@motionone/easing/10.14.0:
+    resolution: {integrity: sha512-2vUBdH9uWTlRbuErhcsMmt1jvMTTqvGmn9fHq8FleFDXBlHFs5jZzHJT9iw+4kR1h6a4SZQuCf72b9ji92qNYA==}
+    dependencies:
+      '@motionone/utils': 10.14.0
+      tslib: 2.4.0
+    dev: false
+
+  /@motionone/generators/10.14.0:
+    resolution: {integrity: sha512-6kRHezoFfIjFN7pPpaxmkdZXD36tQNcyJe3nwVqwJ+ZfC0e3rFmszR8kp9DEVFs9QL/akWjuGPSLBI1tvz+Vjg==}
+    dependencies:
+      '@motionone/types': 10.14.0
+      '@motionone/utils': 10.14.0
+      tslib: 2.4.0
+    dev: false
+
+  /@motionone/svelte/10.14.0:
+    resolution: {integrity: sha512-cvn4Hp7aUf2Vo0zwqmNVKkkVvPDP2xXYaU+RC4z61KdWwRa3i5YJZAAGwsvtgtT6urSpo42vi/LBb3HoGeEsHw==}
+    dependencies:
+      '@motionone/dom': 10.14.0
+      tslib: 2.4.0
+    dev: false
+
+  /@motionone/types/10.14.0:
+    resolution: {integrity: sha512-3bNWyYBHtVd27KncnJLhksMFQ5o2MSdk1cA/IZqsHtA9DnRM1SYgN01CTcJ8Iw8pCXF5Ocp34tyAjY7WRpOJJQ==}
+    dev: false
+
+  /@motionone/utils/10.14.0:
+    resolution: {integrity: sha512-sLWBLPzRqkxmOTRzSaD3LFQXCPHvDzyHJ1a3VP9PRzBxyVd2pv51/gMOsdAcxQ9n+MIeGJnxzXBYplUHKj4jkw==}
+    dependencies:
+      '@motionone/types': 10.14.0
+      hey-listen: 1.0.8
+      tslib: 2.4.0
+    dev: false
+
+  /@motionone/vue/10.14.0:
+    resolution: {integrity: sha512-5USdzvMUdgpN5NWdMpf9xPTwV8v1fGxAgipRqWhs7keW3N3hg485YzZJZTHnlT885SnQazOEz2KfJyyM7e1yUw==}
+    dependencies:
+      '@motionone/dom': 10.14.0
+      tslib: 2.4.0
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -4518,6 +4581,10 @@ packages:
     hasBin: true
     dev: true
 
+  /hey-listen/1.0.8:
+    resolution: {integrity: sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==}
+    dev: false
+
   /hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
     dev: true
@@ -5524,6 +5591,17 @@ packages:
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: true
+
+  /motion/10.14.0:
+    resolution: {integrity: sha512-Ru2OA/pbdCegGstgUPV7V3Z9IlEDhq+DJgqRg7Fv3MLlk7VOlh67dUFtZnTfBOyOviBSaNH9X6xRtXAv0knqIQ==}
+    dependencies:
+      '@motionone/animation': 10.14.0
+      '@motionone/dom': 10.14.0
+      '@motionone/svelte': 10.14.0
+      '@motionone/types': 10.14.0
+      '@motionone/utils': 10.14.0
+      '@motionone/vue': 10.14.0
+    dev: false
 
   /ms/2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
@@ -7057,6 +7135,10 @@ packages:
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: false
 
   /tsutils/3.21.0_typescript@4.7.3:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
