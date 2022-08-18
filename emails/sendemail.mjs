@@ -39,10 +39,21 @@ for (let a = 0; a < accounts.length; a++) {
   }])
   const emails = context.AthleteEmails + (context?.ParentEmails ? `, ${context.ParentEmails}` : '')
   if (!preview) {
-    await sendEmail({ emails, subject: process.argv[3], html: parse(_template) })
-    fs.writeFileSync(`./src/pages/emails-sent/${emailId}-${context.id}.md`, _template)
-    console.log('Email sent')
-    continue
+    const { send } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'send',
+      message: 'Send email?',
+      default: true,
+    }])
+    if (send) {
+      await sendEmail({ emails, subject: process.argv[3], html: parse(_template) })
+      fs.writeFileSync(`./src/pages/emails-sent/${emailId}-${context.id}.md`, _template)
+      console.log('Email sent')
+      continue
+    }
+    else {
+      continue
+    }
   }
   else {
     fs.writeFileSync(`./emails/stage/${context.id}.html`, parse(_template))
@@ -53,11 +64,14 @@ for (let a = 0; a < accounts.length; a++) {
       message: 'Send email?',
       default: true,
     }])
-
+    fs.unlinkSync(`./emails/stage/${context.id}.html`)
     if (send) {
-      await sendEmail(context, _template)
+      await sendEmail({ emails, subject: process.argv[3], html: parse(_template) })
       fs.writeFileSync(`./src/pages/emails-sent/${emailId}-${context.id}.md`, _template)
       console.log('Email sent')
+      continue
+    }
+    else {
       continue
     }
   }

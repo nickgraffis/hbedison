@@ -111,8 +111,9 @@ const handleReoccuringEvents = (events) => {
 const handler = async(event) => {
   let events
   try {
+    console.log('starting to get events')
     events = await getRecords()
-    // console.log(events)
+    console.log(events)
   }
   catch (error) {
     return { statusCode: 500, body: error.toString() }

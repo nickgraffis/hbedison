@@ -1,21 +1,21 @@
-Hey {{ context.Name }},
+Hey Josh Winn,
 
 If you are not playing water polo this season at Edison High School, please let us know at [ngraffis@hbuhsd.edu](mailto:ngraffis@hbuhsd.edu).
 
 The boys water polo season will officially begin on August 22nd. Here are some really important things to know and do before we get started. **We will also have a Parent Meeting August 23rd at 7 PM at the Edison HS Library**. 
 
 Take a look at some important information below for this season. Or 
-[view this email in the browser](https://edisonwp.com/emails-sent/{{ context?.emailId }}-{{ context?.id }})
+[view this email in the browser](https://edisonwp.com/emails-sent/X7OdGhiU-recuT7iHToyBZokGt)
 
 ## Email List & Communication
 
 I have cleaned up the email list a significant amount, this email was sent to the following addresses:
 
-**Athlete Emails**: {{ context.AthleteEmails }}
+**Athlete Emails**: emwinn2@gmail.com, jasonwinn14@gmail.com, jthomaswinn05@gmail.com, Jasonwinn14@gmail.com
 
-{{ context?.ParentEmails ? '**ParentEmails:** ' + context.ParentEmails : '' }}
 
-If you would like to add, remove, or update an email from an "_Athlete_" to a _"Parent"_ email, you can do so [here](https://edisonwp.com/email-list/{{ context.id }}).
+
+If you would like to add, remove, or update an email from an "_Athlete_" to a _"Parent"_ email, you can do so [here](https://edisonwp.com/email-list/recuT7iHToyBZokGt).
 
 Please help the rest of the team as well, if someone did not get an email, have them contact me at [ngraffis@hbuhsd.edu](mailto:ngraffis@hbuhsd.edu) and we will make sure that they are on the roster.
 
@@ -25,17 +25,17 @@ Athletes will need to be cleard by **August 24th** or they will not be able to p
 
 ### Steps for Clearance
 
-{{ context?.HomeCampus ? '✅' : '❌' }} Register on [Home Campus](https://www.homecampus.com). _You {{  context?.HomeCampus ? 'are' : ' are not'}} signed up on Home Campus_.
+✅ Register on [Home Campus](https://www.homecampus.com). _You are signed up on Home Campus_.
 
 Sign up online [here](https://www.homecampus.com) and then verify your email. Then fill out all of the necessisary forms. 
 
-{{ context?.Physical ? '✅' : '❌' }} Provide the school with a current physical. _You {{ context?.Physical ? 'have a current physical on file with the school' : 'do not have a current physical on file with the school' }}_.
+✅ Provide the school with a current physical. _You have a current physical on file with the school_.
 
-{{ context?.Cleared ? '✅' : '❌' }} Take the online Concussion Baseline Test. If you have signed up on Home Campus, our athlete dirictor has already sent you a link to take the test. If you need to get that link again, email [Rich Boyce](mailto:rboyce@hbuhsd.edu).
+❌ Take the online Concussion Baseline Test. If you have signed up on Home Campus, our athlete dirictor has already sent you a link to take the test. If you need to get that link again, email [Rich Boyce](mailto:rboyce@hbuhsd.edu).
 
-{{ context?.Cleared ? '✅' : '❌' }} Provide the school's financial office with a check made out to **Edison High School** for **$90.00** anytime **_between 12PM and 3 PM_**  for _"Training & Transportation Fees"_. Training refers to the schools trainer, not Coach Ashley, and transportation refers to our use of school busses and vans. 
+❌ Provide the school's financial office with a check made out to **Edison High School** for **$90.00** anytime **_between 12PM and 3 PM_**  for _"Training & Transportation Fees"_. Training refers to the schools trainer, not Coach Ashley, and transportation refers to our use of school busses and vans. 
 
-**{{ context?.Cleared ? '🎉 You are currently cleared' : '❌ You are not currently cleared' }}.**
+**❌ You are not currently cleared.**
 
 ## Game Schedule
 
@@ -45,7 +45,7 @@ The [Game Schedule](https://edisonwp.com/boys) has not changed significantly sin
 
 We will practice in two groups often, and those groups will not be set in stone and will change until we get deeper into season. 
 
-{{ context?.Name }}, you are in the **{{ context?.Team }} Group**.
+Josh Winn, you are in the **Green Group**.
 
 ## Schedule Before School Starts
 
@@ -100,9 +100,9 @@ Fri (Sept 2) 3:30 - 4:30 PM Weightroom + 4:30 - 5:30 PM Pool @ Edison
 
 ## T-Shirt Size & Uniform
 
-You either gave me your T-Shirt Size at practice, or I guessed. It is **{{ context?.ShirtSize }}**.
+You either gave me your T-Shirt Size at practice, or I guessed. It is **L**.
 
-If you want to change the T-Shirt/Polo Shirt Size you can do so [here](https://edisonwp.com/shirt-size/{{ context?.id }}).
+If you want to change the T-Shirt/Polo Shirt Size you can do so [here](https://edisonwp.com/shirt-size/recuT7iHToyBZokGt).
 
 Thanks, more info will come soon.
 

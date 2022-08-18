@@ -41,8 +41,8 @@ const isAuth = async() => {
     return data
   }
   catch (error) {
-    console.error(error)
-    throw error
+    // console.error(error)
+    // throw error
   }
 }
 

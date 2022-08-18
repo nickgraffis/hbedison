@@ -11,6 +11,7 @@ _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
 | :---:        |    :----:   |        :---: | :---: |
 | 8/22         | 📍 [Edison HS]() | All Levels | 2022 Season Training Begins 🏠|
 | 8/24 2:30 - 6 PM      | 📍 [Northwood HS]()       |  F/S, Varsity, JV | Scrimamge vs. Northwood |
+| 8/26 - 8/27 TBD        | 📍 [Wilson High School, Long Beach]() | F/S | Long Beach Tournament|
 | 9/2 - 9/3   | 📍 [Belmont Plaza Pool]()        | Varsity     | Long Beach Tournament 🚌 🏁|
 | 9/7 3/4/5 PM         | 📍 [Edison HS]() | Varsity, JV | vs. University HS 🏠|
 | 9/8 4/5/6 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Long Beach Poly HS 🏠|

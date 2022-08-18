@@ -12,7 +12,7 @@ export function sendEmail({ emails, html, subject }) {
         pass: process.env.SENDGRID_PASSWORD,
       },
     })
-    const [to, ...cc] = emails.split(',')
+    const [to, ...cc] = emails?.split(',')
     const mailOptions = {
       from: 'ngraffis@hbuhsd.edu',
       to,

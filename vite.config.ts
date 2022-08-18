@@ -23,6 +23,11 @@ export default defineConfig({
   server: {
     open: false,
     proxy: {
+      '/.netlify/functions': {
+        target: 'http://localhost:8888/.netlify/functions',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/.netlify\/functions/, ''),
+      },
       '/api': {
         target: 'http://localhost:8888/.netlify/functions',
         changeOrigin: true,
