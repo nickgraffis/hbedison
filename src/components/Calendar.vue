@@ -282,7 +282,7 @@ const startLogin = () => {
           >{{ parseInt(day?.date.split("-")[2]) }}</span>
         </div>
         <div
-          v-for="(event, e) in events.filter((ev) => ev.date === day.date).sort((a, b) => new Date(new Date(a.date).getFullYear(), new Date(a.date).getMonth(), new Date(a.date).getDay(), a.startTime.split(':')[0], a.startTime.split(':')[1]) - new Date(new Date(b.date).getFullYear(), new Date(b.date).getMonth(), new Date(b.date).getDay(), b.startTime.split(':')[0], b.startTime.split(':')[1]))"
+          v-for="(event, e) in events.filter((ev) => new Date(ev.date).toISOString().split('T')[0] === new Date(day.date).toISOString().split('T')[0]).sort((a, b) => new Date(new Date(a.date).getFullYear(), new Date(a.date).getMonth(), new Date(a.date).getDay(), a.startTime.split(':')[0], a.startTime.split(':')[1]) - new Date(new Date(b.date).getFullYear(), new Date(b.date).getMonth(), new Date(b.date).getDay(), b.startTime.split(':')[0], b.startTime.split(':')[1]))"
           :key="event.date"
         >
           <div

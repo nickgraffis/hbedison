@@ -17,7 +17,7 @@ _**🛑 Schedule will change, and be updated hear as we get closer to season.**_
 | 9/8 4/5/6 PM         | 📍 [Edison HS]() | F/S, Varsity, JV | vs. Long Beach Poly HS 🏠|
 | 9/14 3/4/5 PM         | 📍 [Irvine HS]() | F/S, Varsity, JV | @ Irvine HS 🚌|
 | 9/15 - 9/17 TBD   | 📍 [Edison HS]()        | Varsity     | South Coast Tournament 🏁🏠|
-| 9/14 3/4 PM         | 📍 [Pacifica HS]() | Varsity, JV | @ Pacifica HS 🚌|
+| 9/20 3/4 PM         | 📍 [Pacifica HS]() | Varsity, JV | @ Pacifica HS 🚌|
 | 9/21 2:30 PM         | 📍 [Edison HS]() | JV | vs. Fountain Valley 💚🏠|
 | 9/21 4 PM         | 📍 [Edison HS]() | Hosting | CDM vs. Marina 🚨|
 | 9/21 5:10 PM         | 📍 [Edison HS]() | Varsity | vs. Fountain Valley 💚🏠|
