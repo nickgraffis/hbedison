@@ -64,7 +64,7 @@ const processForm = (event?: Event) => {
     isAthlete: isAthlete.value,
     isParent: isParent.value,
     parentEmail: parentEmail.value,
-    athleteEmail: parentEmail.value,
+    athleteEmail: athleteEmail.value,
     parentName: parentName.value,
     athleteName: athleteName.value,
   }
