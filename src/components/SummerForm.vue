@@ -56,6 +56,11 @@ const processForm = (event?: Event) => {
       return error
     })
 }
+
+const parentHeight = ref('0px')
+const expandParent = () => {
+  parentHeight.value === '0px' ? parentHeight.value = '250px' : parentHeight.value = '0px'
+}
 </script>
 
 <template>
@@ -69,69 +74,87 @@ const processForm = (event?: Event) => {
           </svg>
         </div>
         <div class="relative">
-          <div class="text-yellow-50 text-xl font-extrabold tracking-tight sm:text-2xl md:text-3xl">
-            Sign up for email updates.
-          </div>
-          <p class="max-w-2xl mx-auto mt-4 text-sm lg:text-base text-yellow-50">
-            Please sign up for email updates here to make sure you get updates about Edison water polo. ⚡️
-          </p>
-          <form class="mt-6 mx-auto sm:max-w-lg" @submit="processForm">
-            <div class="relative flex-1 min-w-0 space-y-3">
-              <label for="email" class="sr-only">Athlete Name</label><input
-                id="name"
-                :value="name"
-                name="name"
-                type="text"
-                :class="[validName ? 'focus:ring-offset-green-600 ' : 'focus:ring-offset-red-600']"
-                class="block w-full px-5 py-3 text-sm lg:text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2"
-                placeholder="Enter athlete's name"
-                @blur="touched"
-                @keyup="updateName"
-              />
-              <label for="email" class="sr-only">Email Addresses</label><input
-                id="email"
-                :value="email"
-                name="email"
-                type="text"
-                :class="[validEmail ? 'focus:ring-offset-green-600 ' : 'focus:ring-offset-red-600']"
-                class="block w-full px-5 py-3 text-sm lg:text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:outline-none focus:border-transparent focus:ring-white focus:ring-2 focus:ring-offset-2"
-                placeholder="edison@polo.com, nick@nick.com "
-                @blur="touched"
-                @keyup="updateEmail"
-              />
-              <p class="text-xs text-gray-100">
-                Enter as many email addresses as you would like, seperate them by comma. Example: edison@polo.com, nick@nick.com
+          <div class="space-y-4">
+            <div>
+              <div class="text-yellow-50 text-xl font-extrabold tracking-tight sm:text-2xl md:text-3xl">
+                Sign up for email updates.
+              </div>
+              <p class="max-w-2xl mx-auto mt-4 text-sm lg:text-base text-yellow-50">
+                Please sign up for email updates here to make sure you get updates about Edison water polo. ⚡️
               </p>
             </div>
-            <div class="mt-4 flex items-center justify-center">
-              <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-gray-100 bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
-                <span v-if="!formStatus">Sign Up</span>
-                <div v-if="formStatus === 'loading'" className="w-full flex items-center justify-center">
-                  <svg class="animate-spin h-5 w-5 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle
-                      class="opacity-25"
-                      cx="12"
-                      cy="12"
-                      r="10"
-                      stroke="currentColor"
-                      stroke-width="4"
-                    ></circle>
-                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
+            <div class="w-full border-4 border-green-400 rounded-xl p-2">
+              <div class="w-full flex justify-between" @click="expandParent()">
+                <div class="text-yellow-50 text-xl font-extrabold tracking-tight sm:text-2xl md:text-3xl">
+                  Parent Email Sign Up
                 </div>
-                <div v-if="formStatus === 'complete'" className="w-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div v-if="formStatus === 'error'" className="w-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-              </button>
+              </div>
+              <div class="overflow-hidden" :style="{ height: parentHeight}">
+                <form class="mt-6 mx-auto sm:max-w-lg" @submit="processForm">
+                  <div class="relative flex-1 min-w-0 space-y-3">
+                    <label for="email" class="sr-only">Athlete Name</label><input
+                      id="name"
+                      :value="name"
+                      name="name"
+                      type="text"
+                      :class="[validName ? 'focus:ring-offset-green-600 ' : 'focus:ring-offset-red-600']"
+                      class="block w-full px-5 py-3 text-sm lg:text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2"
+                      placeholder="Enter athlete's name"
+                      @blur="touched"
+                      @keyup="updateName"
+                    />
+                    <label for="email" class="sr-only">Email Addresses</label><input
+                      id="email"
+                      :value="email"
+                      name="email"
+                      type="text"
+                      :class="[validEmail ? 'focus:ring-offset-green-600 ' : 'focus:ring-offset-red-600']"
+                      class="block w-full px-5 py-3 text-sm lg:text-base text-gray-900 placeholder-gray-500 border border-transparent rounded-md shadow-sm focus:outline-none focus:border-transparent focus:ring-white focus:ring-2 focus:ring-offset-2"
+                      placeholder="edison@polo.com, nick@nick.com "
+                      @blur="touched"
+                      @keyup="updateEmail"
+                    />
+                    <p class="text-xs text-gray-100">
+                      Enter as many email addresses as you would like, seperate them by comma. Example: edison@polo.com, nick@nick.com
+                    </p>
+                  </div>
+                  <div class="mt-4 flex items-center justify-center">
+                    <button type="submit" class="inline-flex justify-center items-center w-full px-5 py-3 text-sm lg:text-base font-medium text-gray-100 bg-green-500 border border-transparent rounded-md shadow hover:bg-green-400 focus:outline-none sm:px-10">
+                      <span v-if="!formStatus">Sign Up</span>
+                      <div v-if="formStatus === 'loading'" className="w-full flex items-center justify-center">
+                        <svg class="animate-spin h-5 w-5 text-gray-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle
+                            class="opacity-25"
+                            cx="12"
+                            cy="12"
+                            r="10"
+                            stroke="currentColor"
+                            stroke-width="4"
+                          ></circle>
+                          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                      </div>
+                      <div v-if="formStatus === 'complete'" className="w-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <div v-if="formStatus === 'error'" className="w-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
-          </form>
+            <div class="w-full border-4 border-green-400 rounded-xl flex justify-between p-2">
+              <div class="text-yellow-50 text-xl font-extrabold tracking-tight sm:text-2xl md:text-3xl">
+                Athlete Email Sign Up
+              </div>
+            </div>
+          </div>
           <p v-if="!validName && beenTouched" class="flex items-start space-x-2 text-sm font-semibold text-gray-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-shrink-0 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
