@@ -1,7 +1,7 @@
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 const Airtable = require('airtable')
 
-const handler = async(event) => {
+exports.handler = async function(event) {
   try {
     if (event.httpMethod !== 'POST') return { statusCode: 405, body: 'Method Not Allowed' }
     console.log(JSON.parse(event.body))
@@ -21,5 +21,3 @@ const handler = async(event) => {
     return { statusCode: 500, body: error.toString() }
   }
 }
-
-module.exports = { handler }
