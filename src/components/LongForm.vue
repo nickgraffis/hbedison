@@ -68,7 +68,7 @@ const processForm = (event?: Event) => {
     parentName: parentName.value,
     athleteName: athleteName.value,
   }
-  fetch(`/.netlify/functions/summer-singup`, {
+  fetch(`https://edisonwp.com/.netlify/functions/summer-signup`, {
     method: 'POST',
     body: JSON.stringify(data),
   })
